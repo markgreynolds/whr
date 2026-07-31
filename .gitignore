@@ -1,0 +1,7 @@
+# auto generated wildcard
+db/.env
+
+mta_archives/
+**/node_modules/**
+
+.vscode

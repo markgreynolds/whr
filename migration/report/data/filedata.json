@@ -1,0 +1,82 @@
+{
+  "/home/user/projects/WHRMIG_PROJ/db/src/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 0
+  },
+  "/home/user/projects/WHRMIG_PROJ/migration/todo/WHRMIG/BASE/DIM_HB_CUST_SALES.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 1
+  },
+  "/home/user/projects/WHRMIG_PROJ/migration/todo/WHRMIG/BASE/DIM_HB_MATERIAL.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 2
+  },
+  "/home/user/projects/WHRMIG_PROJ/db/src/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 3
+  },
+  "/home/user/projects/WHRMIG_PROJ/db/src/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 4
+  },
+  "/home/user/projects/WHRMIG_PROJ/db/src/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 5
+  },
+  "/home/user/projects/WHRMIG_PROJ/db/src/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 6
+  },
+  "/home/user/projects/WHRMIG_PROJ/db/src/BUS/FIN/COPA/CV_ZCOPALIC.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 7
+  },
+  "/home/user/projects/WHRMIG_PROJ/db/src/BUS/FIN/ISC/CV_ZPRODH2_HIER_LVL.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 8
+  },
+  "/home/user/projects/WHRMIG_PROJ/db/src/BUS/ISC/OTR/calculationviews/CV_ZPRODH2_HIER_LVL.hdbcalculationview": {
+    "container": "db",
+    "fileIndex": 9
+  },
+  "src/WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.properties": {
+    "container": "db",
+    "fileIndex": 10
+  },
+  "src/WHRMIG/BASE/DIM_HB_CUST_SALES.properties": {
+    "container": "db",
+    "fileIndex": 11
+  },
+  "src/WHRMIG/BASE/DIM_HB_MATERIAL.properties": {
+    "container": "db",
+    "fileIndex": 12
+  },
+  "src/WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.properties": {
+    "container": "db",
+    "fileIndex": 13
+  },
+  "src/WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.properties": {
+    "container": "db",
+    "fileIndex": 14
+  },
+  "src/WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.properties": {
+    "container": "db",
+    "fileIndex": 15
+  },
+  "src/WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.properties": {
+    "container": "db",
+    "fileIndex": 16
+  },
+  "src/WHRMIG/BUS/FIN/COPA/CV_ZCOPALIC.properties": {
+    "container": "db",
+    "fileIndex": 17
+  },
+  "src/WHRMIG/BUS/FIN/ISC/CV_ZPRODH2_HIER_LVL.properties": {
+    "container": "db",
+    "fileIndex": 18
+  },
+  "src/WHRMIG/BUS/ISC/OTR/calculationviews/CV_ZPRODH2_HIER_LVL.properties": {
+    "container": "db",
+    "fileIndex": 19
+  }
+}

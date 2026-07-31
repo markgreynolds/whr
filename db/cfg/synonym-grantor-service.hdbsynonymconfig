@@ -1,0 +1,902 @@
+{
+    "WHRMIG::/BIC/AZCOPALIC00": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/AZCOPALIC00"
+        }
+    },
+    "WHRMIG::M_TIME_DIMENSION": {
+        "target": {
+            "schema": "_SYS_BI",
+            "object": "M_TIME_DIMENSION"
+        }
+    },
+    "WHRMIG::/BIC/TZPROMMAPI": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPROMMAPI"
+        }
+    },
+    "WHRMIG::/BIC/TZPROFSEGC": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPROFSEGC"
+        }
+    },
+    "WHRMIG::/BIC/TZPROFSEG": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPROFSEG"
+        }
+    },
+    "WHRMIG::/BIC/TZPRODH3": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPRODH3"
+        }
+    },
+    "WHRMIG::/BIC/TZPRODH2": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPRODH2"
+        }
+    },
+    "WHRMIG::/BIC/TZPRODH1": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPRODH1"
+        }
+    },
+    "WHRMIG::/BIC/TZPRFTLOSS": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPRFTLOSS"
+        }
+    },
+    "WHRMIG::/BIC/TZPRCSHTNR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPRCSHTNR"
+        }
+    },
+    "WHRMIG::/BIC/TZPRCGP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPRCGP"
+        }
+    },
+    "WHRMIG::/BIC/TZPLANACTL": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPLANACTL"
+        }
+    },
+    "WHRMIG::/BI0/TCURTYPE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCURTYPE"
+        }
+    },
+    "WHRMIG::/BIC/TZPERIOTO": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPERIOTO"
+        }
+    },
+    "WHRMIG::/BIC/TZORIGIN": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZORIGIN"
+        }
+    },
+    "WHRMIG::/BIC/TZMTLSTSCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZMTLSTSCD"
+        }
+    },
+    "WHRMIG::/BIC/TZMSRPIND": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZMSRPIND"
+        }
+    },
+    "WHRMIG::/BIC/TZMAPIND": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZMAPIND"
+        }
+    },
+    "WHRMIG::/BIC/TZLDC_MX": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZLDC_MX"
+        }
+    },
+    "WHRMIG::/BI0/TCUSTOMER": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCUSTOMER"
+        }
+    },
+    "WHRMIG::/BIC/TZITEM_NUM": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZITEM_NUM"
+        }
+    },
+    "WHRMIG::/BIC/TZINNOVPR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZINNOVPR"
+        }
+    },
+    "WHRMIG::/BIC/TZFRTROUTE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZFRTROUTE"
+        }
+    },
+    "WHRMIG::TCURT": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "TCURT"
+        }
+    },
+    "WHRMIG::/BIC/TZFCSRCCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZFCSRCCD"
+        }
+    },
+    "WHRMIG::/BIC/TZCTSQTYD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCTSQTYD"
+        }
+    },
+    "WHRMIG::/BIC/TZCPRBMLGP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCPRBMLGP"
+        }
+    },
+    "WHRMIG::/BIC/TZCOSTOBJ": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCOSTOBJ"
+        }
+    },
+    "WHRMIG::/BIC/TZCOMPCURR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCOMPCURR"
+        }
+    },
+    "WHRMIG::/BIC/TZCCTRCTGY": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCCTRCTGY"
+        }
+    },
+    "WHRMIG::/BIC/TZCANCELIT": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCANCELIT"
+        }
+    },
+    "WHRMIG::/BIC/TZCANCELDO": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCANCELDO"
+        }
+    },
+    "WHRMIG::/BIC/TZAHAMCODE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZAHAMCODE"
+        }
+    },
+    "WHRMIG::/BI0/TCREATEDBY": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCREATEDBY"
+        }
+    },
+    "WHRMIG::/BIC/TGTPARTNER": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGTPARTNER"
+        }
+    },
+    "WHRMIG::/BIC/TGSLSCHAN": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGSLSCHAN"
+        }
+    },
+    "WHRMIG::/BIC/TGPRODPLNT": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGPRODPLNT"
+        }
+    },
+    "WHRMIG::/BIC/TGPRODPLFM": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGPRODPLFM"
+        }
+    },
+    "WHRMIG::/BIC/TGPRODGRP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGPRODGRP"
+        }
+    },
+    "WHRMIG::/BIC/TGPRODFAM": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGPRODFAM"
+        }
+    },
+    "WHRMIG::/BIC/TGPRODCTGY": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGPRODCTGY"
+        }
+    },
+    "WHRMIG::/BIC/TGPRODCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGPRODCD"
+        }
+    },
+    "WHRMIG::/BIC/TGLNOFBUS": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGLNOFBUS"
+        }
+    },
+    "WHRMIG::/BI0/TCO_AREA": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCO_AREA"
+        }
+    },
+    "WHRMIG::/BIC/TGCPOTYP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGCPOTYP"
+        }
+    },
+    "WHRMIG::/BIC/TGCOPAPTNR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGCOPAPTNR"
+        }
+    },
+    "WHRMIG::/BIC/TGCOPACHNG": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TGCOPACHNG"
+        }
+    },
+    "WHRMIG::/BIC/TC_ARAWTYP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TC_ARAWTYP"
+        }
+    },
+    "WHRMIG::/BI0/TWBS_ELEMT": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TWBS_ELEMT"
+        }
+    },
+    "WHRMIG::T006A": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "T006A"
+        }
+    },
+    "WHRMIG::/BI0/TVERSION": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TVERSION"
+        }
+    },
+    "WHRMIG::/BI0/TVALUATION": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TVALUATION"
+        }
+    },
+    "WHRMIG::/BI0/TCOSTELMNT": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCOSTELMNT"
+        }
+    },
+    "WHRMIG::/BI0/TSALES_OFF": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TSALES_OFF"
+        }
+    },
+    "WHRMIG::/BI0/TSALES_GRP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TSALES_GRP"
+        }
+    },
+    "WHRMIG::/BI0/TSALES_DIST": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TSALES_DIST"
+        }
+    },
+    "WHRMIG::/BI0/TSALESORG": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TSALESORG"
+        }
+    },
+    "WHRMIG::/BI0/TREC_TYPE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TREC_TYPE"
+        }
+    },
+    "WHRMIG::/BI0/TPROFIT_CTR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TPROFIT_CTR"
+        }
+    },
+    "WHRMIG::/BI0/TPMNTTRMS": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TPMNTTRMS"
+        }
+    },
+    "WHRMIG::/BI0/TPLANT": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TPLANT"
+        }
+    },
+    "WHRMIG::/BI0/TCOMPANY": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCOMPANY"
+        }
+    },
+    "WHRMIG::/BI0/TCOORDER": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCOORDER"
+        }
+    },
+    "WHRMIG::/BI0/TMATL_TYPE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TMATL_TYPE"
+        }
+    },
+    "WHRMIG::/BI0/TMATL_GRP_1": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TMATL_GRP_1"
+        }
+    },
+    "WHRMIG::/BI0/TCOMP_CODE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCOMP_CODE"
+        }
+    },
+    "WHRMIG::/BI0/TMATERIAL": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TMATERIAL"
+        }
+    },
+    "WHRMIG::/BI0/TINCOTERMS": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TINCOTERMS"
+        }
+    },
+    "WHRMIG::/BI0/TFUNC_AREA": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TFUNC_AREA"
+        }
+    },
+    "WHRMIG::/BI0/TDOC_NUMBER": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TDOC_NUMBER"
+        }
+    },
+    "WHRMIG::/BI0/TDIVISION": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TDIVISION"
+        }
+    },
+    "WHRMIG::/BI0/TDISTR_CHAN": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TDISTR_CHAN"
+        }
+    },
+    "WHRMIG::/BI0/TBUS_AREA": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TBUS_AREA"
+        }
+    },
+    "WHRMIG::/BI0/TCUST_SALES": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCUST_SALES"
+        }
+    },
+    "WHRMIG::/BI0/TCUST_GRP3": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCUST_GRP3"
+        }
+    },
+    "WHRMIG::/BI0/TCUST_GRP1": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCUST_GRP1"
+        }
+    },
+    "WHRMIG::/BI0/TCUST_GROUP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCUST_GROUP"
+        }
+    },
+    "WHRMIG::/BIC/TZWCPTFN": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZWCPTFN"
+        }
+    },
+    "WHRMIG::/BIC/TZUPDSTALI": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZUPDSTALI"
+        }
+    },
+    "WHRMIG::/BIC/TZTOWIND": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZTOWIND"
+        }
+    },
+    "WHRMIG::/BIC/TZSTATE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSTATE"
+        }
+    },
+    "WHRMIG::/BIC/TZSHPDOCTY": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSHPDOCTY"
+        }
+    },
+    "WHRMIG::/BIC/TZSHIPTORE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSHIPTORE"
+        }
+    },
+    "WHRMIG::/BIC/TZSENDCOST": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSENDCOST"
+        }
+    },
+    "WHRMIG::/BIC/TZSENDBUSP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSENDBUSP"
+        }
+    },
+    "WHRMIG::/BIC/TZREF_ITEM": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZREF_ITEM"
+        }
+    },
+    "WHRMIG::/BI0/TBILL_TYPE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TBILL_TYPE"
+        }
+    },
+    "WHRMIG::/BI0/PMATERIAL": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/PMATERIAL"
+        }
+    },
+    "WHRMIG::/BIC/TZSNOPFMLY": {
+        "target": {
+            "schema": "ABAP",
+            "object": "/BIC/TZSNOPFMLY"
+        }
+    },
+    "WHRMIG::/BIC/TGPRODHIER": {
+        "target": {
+            "schema": "ABAP",
+            "object": "/BIC/TGPRODHIER"
+        }
+    },
+    "WHRMIG::/BIC/TZMTLCOLOR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZMTLCOLOR"
+        }
+    },
+    "WHRMIG::/BIC/TZLABOR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZLABOR"
+        }
+    },
+    "WHRMIG::/BI0/PCUST_SALES": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/PCUST_SALES"
+        }
+    },
+    "WHRMIG::TCURV": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "TCURV"
+        }
+    },
+    "WHRMIG::TCURX": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "TCURX"
+        }
+    },
+    "WHRMIG::TCURN": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "TCURN"
+        }
+    },
+    "WHRMIG::TCURF": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "TCURF"
+        }
+    },
+    "WHRMIG::TCURR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "TCURR"
+        }
+    },
+    "WHRMIG::/BI0/PMAT_PLANT": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/PMAT_PLANT"
+        }
+    },
+    "WHRMIG::/BI0/TABCKEY": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TABCKEY"
+        }
+    },
+    "WHRMIG::/BI0/TPUR_GROUP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TPUR_GROUP"
+        }
+    },
+    "WHRMIG::/BIC/TZAVLCKGP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZAVLCKGP"
+        }
+    },
+    "WHRMIG::/BI0/TCOUNTRY": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCOUNTRY"
+        }
+    },
+    "WHRMIG::/BIC/TZCULDCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCULDCD"
+        }
+    },
+    "WHRMIG::/BIC/TZEXPGPCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZEXPGPCD"
+        }
+    },
+    "WHRMIG::/BIC/TZFAMILY": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZFAMILY"
+        }
+    },
+    "WHRMIG::/BIC/TZFAMLYGRP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZFAMLYGRP"
+        }
+    },
+    "WHRMIG::/BIC/TZINVDPLIR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZINVDPLIR"
+        }
+    },
+    "WHRMIG::/BIC/TZLOTSZ": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZLOTSZ"
+        }
+    },
+    "WHRMIG::/BIC/TZMRP_CTRL": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZMRP_CTRL"
+        }
+    },
+    "WHRMIG::/BIC/TZMTLFRTGP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZMTLFRTGP"
+        }
+    },
+    "WHRMIG::/BIC/TZMTLVALCG": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZMTLVALCG"
+        }
+    },
+    "WHRMIG::/BIC/TZPLTSTSCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPLTSTSCD"
+        }
+    },
+    "WHRMIG::/BIC/TZSTLCNR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSTLCNR"
+        }
+    },
+    "WHRMIG::/BIC/TZSERNRPFL": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSERNRPFL"
+        }
+    },
+    "WHRMIG::/BIC/TZSPLPRTYP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSPLPRTYP"
+        }
+    },
+    "WHRMIG::/BI0/TREGION": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TREGION"
+        }
+    },
+    "WHRMIG::/BIC/TZSVCLVL": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSVCLVL"
+        }
+    },
+    "WHRMIG::/BIC/TZTRFFCLSS": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZTRFFCLSS"
+        }
+    },
+    "WHRMIG::/BI0/TDISMM": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TDISMM"
+        }
+    },
+    "WHRMIG::/BI0/TMAT_PLANT": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TMAT_PLANT"
+        }
+    },
+    "WHRMIG::/BI0/TMRP_CONTRL": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TMRP_CONTRL"
+        }
+    },
+    "WHRMIG::/BIC/AZGPSLOD300": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/AZGPSLOD300"
+        }
+    },
+    "WHRMIG::/BIC/TZVERSPRI": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZVERSPRI"
+        }
+    },
+    "WHRMIG::/BIC/TZVERSCUR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZVERSCUR"
+        }
+    },
+    "WHRMIG::/BIC/TZCHANNEL4": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCHANNEL4"
+        }
+    },
+    "WHRMIG::/BIC/AZGPSPPCH00": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/AZGPSPPCH00"
+        }
+    },
+    "WHRMIG::/BI0/PCUSTOMER": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/PCUSTOMER"
+        }
+    },
+    "WHRMIG::/BI0/TACCNT_GRP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TACCNT_GRP"
+        }
+    },
+    "WHRMIG::/BI0/TNIELSEN_ID": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TNIELSEN_ID"
+        }
+    },
+    "WHRMIG::/BI0/TREPR_GROUP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TREPR_GROUP"
+        }
+    },
+    "WHRMIG::/BI0/TRISK_CATEG": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TRISK_CATEG"
+        }
+    },
+    "WHRMIG::/BI0/TTRZONE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TTRZONE"
+        }
+    },
+    "WHRMIG::/BI0/TVENDOR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TVENDOR"
+        }
+    },
+    "WHRMIG::/BIC/TZAATPCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZAATPCD"
+        }
+    },
+    "WHRMIG::/BIC/TZCRGRP": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZCRGRP"
+        }
+    },
+    "WHRMIG::/BIC/TZDFSTLCNR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZDFSTLCNR"
+        }
+    },
+    "WHRMIG::/BIC/TZDLVBLCK": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZDLVBLCK"
+        }
+    },
+    "WHRMIG::/BIC/TZLIENWAIV": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZLIENWAIV"
+        }
+    },
+    "WHRMIG::/BIC/TZODBLCKCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZODBLCKCD"
+        }
+    },
+    "WHRMIG::/BIC/TZPODRQDIR": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZPODRQDIR"
+        }
+    },
+    "WHRMIG::/BIC/TZSETASDCD": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSETASDCD"
+        }
+    },
+    "WHRMIG::/BIC/TZSTFRIND": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZSTFRIND"
+        }
+    },
+    "WHRMIG::/BIC/TZTDLINKS": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZTDLINKS"
+        }
+    },
+    "WHRMIG::/BIC/TZURLSTORE": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZURLSTORE"
+        }
+    },
+    "WHRMIG::/BIC/TZVRTXTAX": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BIC/TZVRTXTAX"
+        }
+    },
+    "WHRMIG::/BI0/TCUST_CLASS": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TCUST_CLASS"
+        }
+    },
+    "WHRMIG::/BI0/TC_CTR_AREA": {
+        "target": {
+            "schema": "SAPBIW",
+            "object": "/BI0/TC_CTR_AREA"
+        }
+    },
+    "WHRMIG::/BIC/HZPRODH2": {
+        "target": {
+            "schema": "ABAP",
+            "object": "/BIC/HZPRODH2"
+        }
+    },
+    "WHRMIG::RSTHIERNODE": {
+        "target": {
+            "schema": "ABAP",
+            "object": "RSTHIERNODE"
+        }
+    }
+}

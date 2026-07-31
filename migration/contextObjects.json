@@ -1,0 +1,1442 @@
+[
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE::DIM_HB_CUST_SALES",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE::DIM_HB_MATERIAL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE::DIM_HB_MAT_PLANT_CVTD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS::AV_HB_ZCOPALIC",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS::CV_HB_ZGPSLOD3",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS::CV_HB_ZGPSPPCH",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.ISC.TRANS.CVTD::CV_HB_SOLD_TO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.FIN.COPA::CV_ZCOPALIC",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.FIN.ISC::CV_ZPRODH2_HIER_LVL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.ISC.OTR.calculationviews::CV_ZPRODH2_HIER_LVL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/olap",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE/DIM_HB_CUST_SALES",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRDFMPL/hier/GPRDFMPL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0COSTELMNT/hier/0COSTELMNT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_GRP3/hier/0CUST_GRP3",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__ZBUYGPNR/hier/0CUST_SALES__ZBUYGPNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__ZPRCGP/hier/0CUST_SALES__ZPRCGP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__ZCPRBMLGP___T/hier/0MATERIAL__ZCPRBMLGP___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0DIVISION/hier/0DIVISION",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CUST_SALES/hier/0CUST_SALES",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0COPASLQTU/hier/0COPASLQTU",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZCHANNEL4___T/hier/ZCHANNEL4___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODGRP/hier/GPRODGRP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODFAM/hier/GPRODFAM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODCTGY/hier/GPRODCTGY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODCD/hier/GPRODCD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__GPRODPLFM/hier/0MATERIAL__GPRODPLFM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATL_TYPE/hier/0MATL_TYPE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0PMNTTRMS/hier/0PMNTTRMS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0POST_DATE/hier/0POST_DATE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0TCTTIMSTMP/hier/0TCTTIMSTMP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0WBS_ELEMT/hier/0WBS_ELEMT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GPRODPLNT/hier/GPRODPLNT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZFCSRCCD/hier/ZFCSRCCD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZMAPIND/hier/ZMAPIND",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZODCREADT/hier/ZODCREADT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0MATERIAL__T/hier/0MATERIAL__T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPRCSRC/hier/ZPRCSRC",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPRODH2/hier/ZPRODH2",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPRODH3/hier/ZPRODH3",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZREF_ITEM/hier/ZREF_ITEM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZTSLSNR/hier/ZTSLSNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/M_YEAR/hier/M_YEAR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/M_MONTH/hier/M_MONTH",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__ZBUYGPHI/hier/0CUST_SALES__ZBUYGPHI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__GPRODHIER___T/hier/0MATERIAL__GPRODHIER___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.ISC.TRANS.CVTD/CV_HB_SOLD_TO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.ISC.OTR.calculationviews/CV_ZPRODH2_HIER_LVL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0FUNC_AREA/hier/0FUNC_AREA",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0BILL_NUM/hier/0BILL_NUM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0BILL_TYPE/hier/0BILL_TYPE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0BUS_AREA/hier/0BUS_AREA",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0COMP_CODE/hier/0COMP_CODE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_GRP1/hier/0CUST_GRP1",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__ZTSLSNR/hier/0CUST_SALES__ZTSLSNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0DOC_NUMBER/hier/0DOC_NUMBER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CUST_SALES__0CUST_GRP1___T/hier/0CUST_SALES__0CUST_GRP1___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0COUNTRY___T/hier/0COUNTRY___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/_BIC_ZACTMGRNR___T/hier/_BIC_ZACTMGRNR___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0UNIT___T/hier/0UNIT___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0SALESORG/hier/0SALESORG",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZPRIPER/hier/ZPRIPER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZCURPERLO/hier/ZCURPERLO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZCURPERHI/hier/ZCURPERHI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZCOMPMODL/hier/ZCOMPMODL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GTXNC_KEY/hier/GTXNC_KEY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODFAM___T/hier/GPRODFAM___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GLNOFBUS/hier/GLNOFBUS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GBASEMLNR/hier/GBASEMLNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0MATERIAL/hier/0MATERIAL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0CURRENCY___T/hier/0CURRENCY___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0GI_DATE/hier/0GI_DATE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0LOGSYS/hier/0LOGSYS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__GPRODFAM/hier/0MATERIAL__GPRODFAM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__GPRODGRP/hier/0MATERIAL__GPRODGRP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__ZLABOR/hier/0MATERIAL__ZLABOR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0REF_DOC_NO/hier/0REF_DOC_NO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0UNIT_OF_WT/hier/0UNIT_OF_WT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0VALUATION/hier/0VALUATION",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GCPOTYP/hier/GCPOTYP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GORGUNIT/hier/GORGUNIT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GPRODCD/hier/GPRODCD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZFRTROUTE/hier/ZFRTROUTE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZMSRPIND/hier/ZMSRPIND",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZMTLSTSCD/hier/ZMTLSTSCD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZORIGIN/hier/ZORIGIN",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRODGRP/hier/GPRODGRP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRODFAM/hier/GPRODFAM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPRCSHTDE/hier/ZPRCSHTDE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPROFSEGC/hier/ZPROFSEGC",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZSHIPTORE/hier/ZSHIPTORE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZUPDSTALI/hier/ZUPDSTALI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZXTNOPNR/hier/ZXTNOPNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__CUST_GROUP___T/hier/0CUST_SALES__CUST_GROUP___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE/DIM_HB_MAT_PLANT_CVTD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CONTRACT/hier/0CONTRACT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CO_AREA/hier/0CO_AREA",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CURTYPE/hier/0CURTYPE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__ZJAMMGRNR/hier/0CUST_SALES__ZJAMMGRNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0DATE/hier/0DATE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0FISCPER/hier/0FISCPER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0FISCVARNT/hier/0FISCVARNT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0MATL_GRP_1/hier/0MATL_GRP_1",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CURRENCY___T/hier/0CURRENCY___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODCTGY__T/hier/GPRODCTGY__T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0VOLUMEUNIT/hier/0VOLUMEUNIT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0MATL_GRP_1___T/hier/0MATL_GRP_1___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZVERSPRI/hier/ZVERSPRI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZPRIPERLO/hier/ZPRIPERLO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0UNIT_OF_WT/hier/0UNIT_OF_WT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.FIN.COPA/CV_ZCOPALIC/hier/OTR_UNIT_GROUPINGS_SPC_Hierarchy",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0DISTR_CHAN/hier/0DISTR_CHAN",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0CURKEY_LC/hier/0CURKEY_LC",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0COUNTRY___T/hier/0COUNTRY___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__GPRODCD/hier/0MATERIAL__GPRODCD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0PAYER/hier/0PAYER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0PLANT/hier/0PLANT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0PRICE_DATE/hier/0PRICE_DATE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0REC_TYPE/hier/0REC_TYPE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0SALES_OFF/hier/0SALES_OFF",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0SHIP_TO/hier/0SHIP_TO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0VOLUMEUNIT/hier/0VOLUMEUNIT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GCOPACHNG/hier/GCOPACHNG",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZCOMPCURR/hier/ZCOMPCURR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZJAMMGRNR/hier/ZJAMMGRNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRODGRP__T/hier/GPRODGRP__T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZVERSPRI___T/hier/ZVERSPRI___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZPRIPERHI/hier/ZPRIPERHI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZPRFTLOSS___T/hier/ZPRFTLOSS___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZPRFTLOSS/hier/ZPRFTLOSS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZCHANNEL4___T/hier/ZCHANNEL4___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZCHANNEL4/hier/ZCHANNEL4",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRODFAM___T/hier/GPRODFAM___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZSENDBUSP/hier/ZSENDBUSP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZSTATE/hier/ZSTATE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/M_CALMONTH/hier/M_CALMONTH",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__CUST_GROUP/hier/0CUST_SALES__CUST_GROUP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__GPRODHIER/hier/0MATERIAL__GPRODHIER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__ZSNOPFMLY/hier/0MATERIAL__ZSNOPFMLY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__SALES_GRP___T/hier/0CUST_SALES__SALES_GRP___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.FIN.ISC/CV_ZPRODH2_HIER_LVL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRODCTGY/hier/GPRODCTGY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CREATEDBY/hier/0CREATEDBY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_GROUP/hier/0CUST_GROUP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES/hier/0CUST_SALES",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0FISCYEAR/hier/0FISCYEAR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CURRENCY/hier/0CURRENCY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/_BIC_ZACTMGRNR/hier/_BIC_ZACTMGRNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0SALESORG___T/hier/0SALESORG___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZVERSCUR___T/hier/ZVERSCUR___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZPRODH2/hier/ZPRODH2",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZPRFTLOSS___T/hier/ZPRFTLOSS___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZCUSTHI/hier/ZCUSTHI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZCURPER/hier/ZCURPER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODPLFM/hier/GPRODPLFM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0UNIT/hier/0UNIT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/Measures/hier/Measures",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE/DIM_HB_CUST_SALES/hier/DIM_HB_CUST_SALES",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.ISC.TRANS.CVTD/CV_HB_SOLD_TO/hier/CV_HB_SOLD_TO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE/DIM_HB_MAT_PLANT_CVTD/hier/DIM_HB_MAT_PLANT_CVTD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0DIVISION/hier/0DIVISION",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRODCTGY__T/hier/GPRODCTGY__T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL/hier/0MATERIAL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__GPRODCTGY/hier/0MATERIAL__GPRODCTGY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0SALES_GRP/hier/0SALES_GRP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0VERSION/hier/0VERSION",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GCOPAPTNR/hier/GCOPAPTNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZBUYGPNR/hier/ZBUYGPNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZINNOVPR/hier/ZINNOVPR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPERIOTO/hier/ZPERIOTO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZVERSPRI/hier/ZVERSPRI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZPRODH2/hier/ZPRODH2",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRODPLFM___T/hier/GPRODPLFM___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPROFSEG/hier/ZPROFSEG",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZSENDCOST/hier/ZSENDCOST",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__SALES_GRP/hier/0CUST_SALES__SALES_GRP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__CUST_GRP1/hier/0CUST_SALES__CUST_GRP1",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.FIN.COPA/CV_ZCOPALIC",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0COORDER/hier/0COORDER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CRM_BILDAT/hier/0CRM_BILDAT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CURRENCY/hier/0CURRENCY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__GSLSCHAN/hier/0CUST_SALES__GSLSCHAN",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__ZACTMGRNR/hier/0CUST_SALES__ZACTMGRNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0SALESORG___T/hier/0SALESORG___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0DISTR_CHAN___T/hier/0DISTR_CHAN___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CUST_SALES__0SALES_GRP___T/hier/0CUST_SALES__0SALES_GRP___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CUST_SALES__0CUST_GRP1/hier/0CUST_SALES__0CUST_GRP1",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CURKEY_LC/hier/0CURKEY_LC",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GBASEMLNR/hier/GBASEMLNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODPLFM___T/hier/GPRODPLFM___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GLNOFBUS___T/hier/GLNOFBUS___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZVERSPRI___T/hier/ZVERSPRI___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0CURKEY_LC___T/hier/0CURKEY_LC___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__ZBASEMLNR/hier/0MATERIAL__ZBASEMLNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0SALES_DIST/hier/0SALES_DIST",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/C_ARAWTYP/hier/C_ARAWTYP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GPRODPLFM/hier/GPRODPLFM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZAHAMCODE/hier/ZAHAMCODE",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZCANCELDO/hier/ZCANCELDO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZCCTRCTGY/hier/ZCCTRCTGY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZCPRBMLGP/hier/ZCPRBMLGP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPLANACTL/hier/ZPLANACTL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPRCGP/hier/ZPRCGP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/Measures/hier/Measures",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZVERSCUR___T/hier/ZVERSCUR___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZCURPERLO/hier/ZCURPERLO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZCURPERHI/hier/ZCURPERHI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZCOMPMODL/hier/ZCOMPMODL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPRFTLOSS/hier/ZPRFTLOSS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPRODH1/hier/ZPRODH1",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZSHPDOCTY/hier/ZSHPDOCTY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZTOWIND/hier/ZTOWIND",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/M_CALDAY/hier/M_CALDAY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__CUST_GRP1___T/hier/0CUST_SALES__CUST_GRP1___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE/DIM_HB_MATERIAL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GLNOFBUS___T/hier/GLNOFBUS___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.FIN.ISC/CV_ZPRODH2_HIER_LVL/hier/OTR_UNIT_GROUPINGS_SPC_Hierarchy",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0DISTR_CHAN/hier/0DISTR_CHAN",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0DIVISION/hier/0DIVISION",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0SALESORG/hier/0SALESORG",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0MATL_GRP_1___T/hier/0MATL_GRP_1___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0MATERIAL/hier/0MATERIAL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CUST_SALES___T/hier/0CUST_SALES___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CUST_SALES__0SALES_GRP/hier/0CUST_SALES__0SALES_GRP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CUST_SALES__0CUST_GROUP/hier/0CUST_SALES__0CUST_GROUP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CURKEY_LC___T/hier/0CURKEY_LC___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0COUNTRY/hier/0COUNTRY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GLNOFBUS/hier/GLNOFBUS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0UNIT_OF_WT/hier/0UNIT_OF_WT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZVERSCUR/hier/ZVERSCUR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZCUSTHI___T/hier/ZCUSTHI___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0UNIT___T/hier/0UNIT___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE/DIM_HB_MATERIAL/hier/DIM_HB_MATERIAL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BUS.ISC.OTR.calculationviews/CV_ZPRODH2_HIER_LVL/hier/OTR_UNIT_GROUPINGS_SPC_Hierarchy",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0MATL_GRP_1/hier/0MATL_GRP_1",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0DISTR_CHAN___T/hier/0DISTR_CHAN___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0COPASLQTU/hier/0COPASLQTU",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0INCOTERMS/hier/0INCOTERMS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__ZMTLCOLOR/hier/0MATERIAL__ZMTLCOLOR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATL_GRP_1/hier/0MATL_GRP_1",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0S_ORD_ITEM/hier/0S_ORD_ITEM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0UNIT/hier/0UNIT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GPRODCTGY/hier/GPRODCTGY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GPRODFAM/hier/GPRODFAM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GPRODGRP/hier/GPRODGRP",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GSLSCHAN/hier/GSLSCHAN",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GTPARTNER/hier/GTPARTNER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZOPNLPRT/hier/ZOPNLPRT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZPRIPERLO/hier/ZPRIPERLO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZPROMMAPI/hier/ZPROMMAPI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/M_CALQUARTER/hier/M_CALQUARTER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/M_CALWEEK/hier/M_CALWEEK",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CO_DOC_NO/hier/0CO_DOC_NO",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUSTOMER/hier/0CUSTOMER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0CUST_SALES__ZCUSTHI/hier/0CUST_SALES__ZCUSTHI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0FISCPER3/hier/0FISCPER3",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__ZSNOPFMLY___T/hier/0MATERIAL__ZSNOPFMLY___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0DISTR_CHAN/hier/0DISTR_CHAN",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0CUST_SALES__0CUST_GROUP___T/hier/0CUST_SALES__0CUST_GROUP___T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRODGRP__T/hier/GPRODGRP__T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0UNIT/hier/0UNIT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZPRIPERHI/hier/ZPRIPERHI",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZPRFTLOSS/hier/ZPRFTLOSS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/ZCHANNEL4/hier/ZCHANNEL4",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/GPRDFMPL/hier/GPRDFMPL",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0VOLUMEUNIT/hier/0VOLUMEUNIT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSLOD3/0MATERIAL__T/hier/0MATERIAL__T",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0CURRENCY/hier/0CURRENCY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/0COUNTRY/hier/0COUNTRY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0PART_PRCTR/hier/0PART_PRCTR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0PCOMPANY/hier/0PCOMPANY",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0PROFIT_CTR/hier/0PROFIT_CTR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0SALESORG/hier/0SALESORG",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/GLNOFBUS/hier/GLNOFBUS",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZACTMGRNR/hier/ZACTMGRNR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZCANCELIT/hier/ZCANCELIT",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZCOSTOBJ/hier/ZCOSTOBJ",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZCTSQTYD/hier/ZCTSQTYD",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZITEM_NUM/hier/ZITEM_NUM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZLDC_MX/hier/ZLDC_MX",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/ZVERSCUR/hier/ZVERSCUR",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/CV_HB_ZGPSPPCH/GPRODPLFM/hier/GPRODPLFM",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/ZWCPTFN/hier/ZWCPTFN",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/M_QUARTER/hier/M_QUARTER",
+        "_objectType": "VIEW"
+    },
+    {
+        "_schemaName": "_SYS_BIC",
+        "_objectName": "WHRMIG.BASE.FIN.TRANS/AV_HB_ZCOPALIC/0MATERIAL__ZCPRBMLGP/hier/0MATERIAL__ZCPRBMLGP",
+        "_objectType": "VIEW"
+    }
+]

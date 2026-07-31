@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="2.3" id="DIM_HB_MATERIAL" applyPrivilegeType="NONE" checkAnalyticPrivileges="true" defaultClient="$$client$$" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" translationRelevant="true" visibility="internal" calculationScenarioType="TREE_BASED" dataCategory="DIMENSION" enforceSqlExecution="false" executionSemantic="UNDEFINED" outputViewType="Projection">
+  <origin/>
+  <descriptions defaultDescription="Dimensional HANA Base Calculation View for 0MATERIAL"/>
+  <metadata activatedAt="2026-07-20 00:23:38.0" changedAt="2026-07-19 20:22:30.279"/>
+  <localVariables/>
+  <variableMappings/>
+  <informationModelLayout relativeWidthScenario="27"/>
+  <dataSources>
+    <DataSource id="AT_HB_MATERIAL" type="ATTRIBUTE_VIEW">
+      <viewAttributes allViewAttributes="true"/>
+      <resourceUri>/WHR.BASE.attributeviews/attributeviews/AT_HB_MATERIAL</resourceUri>
+    </DataSource>
+  </dataSources>
+  <calculationViews/>
+  <logicalModel id="AT_HB_MATERIAL">
+    <descriptions/>
+    <attributes>
+      <attribute id="0MATERIAL__0MATERIAL" key="true" order="1" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Material"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0MATERIAL"/>
+      </attribute>
+      <attribute id="0MATERIAL__0MATERIAL___T" order="2" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Material text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0MATERIAL___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__0BASE_UOM" order="3" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Base Unit"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0BASE_UOM"/>
+      </attribute>
+      <attribute id="0MATERIAL__0CH_ON" hidden="false" order="4" semanticType="date" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Changed on"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0CH_ON"/>
+      </attribute>
+      <attribute id="0MATERIAL__0CREATEDON" hidden="false" order="6" semanticType="date" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Created on"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0CREATEDON"/>
+      </attribute>
+      <attribute id="0MATERIAL__0DIVISION" order="8" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Division"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0DIVISION"/>
+      </attribute>
+      <attribute id="0MATERIAL__0DIVISION___T" order="9" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Diviison text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0DIVISION___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__0EANUPC" order="10" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: EAN/UPC(Material)"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0EANUPC"/>
+      </attribute>
+      <attribute id="0MATERIAL__0GROSS_WT" order="11" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gross weight"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0GROSS_WT"/>
+      </attribute>
+      <attribute id="0MATERIAL__0HEIGHT" order="12" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Height"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0HEIGHT"/>
+      </attribute>
+      <attribute id="0MATERIAL__0IND_SECTOR" order="13" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Industry Sector"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0IND_SECTOR"/>
+      </attribute>
+      <attribute id="0MATERIAL__0IND_SECTOR___T" order="14" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Industry Sector text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0IND_SECTOR___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__0LENGHT" order="15" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Length"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0LENGHT"/>
+      </attribute>
+      <attribute id="0MATERIAL__0MATL_GROUP" order="16" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Material Group"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0MATL_GROUP"/>
+      </attribute>
+      <attribute id="0MATERIAL__0MATL_GROUP___T" order="17" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Material Group text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0MATL_GROUP___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__0MATL_TYPE" order="18" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Material Type"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0MATL_TYPE"/>
+      </attribute>
+      <attribute id="0MATERIAL__0MATL_TYPE___T" order="19" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Material Type text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0MATL_TYPE___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__0ME_AUTHGRP" order="20" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Auth Grp"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0ME_AUTHGRP"/>
+      </attribute>
+      <attribute id="0MATERIAL__0ME_AUTHGRP___T" order="21" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Auth Grp text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0ME_AUTHGRP___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__0NET_WEIGHT" order="22" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Net weight"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0NET_WEIGHT"/>
+      </attribute>
+      <attribute id="0MATERIAL__0PO_UNIT" order="23" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Order unit"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0PO_UNIT"/>
+      </attribute>
+      <attribute id="0MATERIAL__0PROD_HIER" order="24" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Prod Lvl Grp code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0PROD_HIER"/>
+      </attribute>
+      <attribute id="0MATERIAL__0PROD_HIER___T" order="25" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Prod Lvl Grp text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0PROD_HIER___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__0SIZE_DIM" order="26" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Size/dimension"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0SIZE_DIM"/>
+      </attribute>
+      <attribute id="0MATERIAL__0STD_DESCR" order="27" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: COSAC Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0STD_DESCR"/>
+      </attribute>
+      <attribute id="0MATERIAL__0UNIT_DIM" order="28" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Unit"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0UNIT_DIM"/>
+      </attribute>
+      <attribute id="0MATERIAL__0UNIT_OF_WT" order="29" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Weight unit"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0UNIT_OF_WT"/>
+      </attribute>
+      <attribute id="0MATERIAL__0VOLUME" order="30" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Volume"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0VOLUME"/>
+      </attribute>
+      <attribute id="0MATERIAL__0VOLUMEUNIT" order="31" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Volume unit"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0VOLUMEUNIT"/>
+      </attribute>
+      <attribute id="0MATERIAL__0WIDTH" order="32" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Width"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__0WIDTH"/>
+      </attribute>
+      <attribute id="0MATERIAL__GCOUNT" order="33" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Record Count"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GCOUNT"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODCD" order="34" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODCD"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODCD___T" order="35" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Code text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODCD___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODCTGY" order="36" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Ctgy"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODCTGY"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODCTGY___T" order="37" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Ctgy text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODCTGY___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODFAM" order="38" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Family"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODFAM"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODFAM___T" order="39" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Family text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODFAM___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODGRP" order="40" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Group"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODGRP"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODGRP___T" order="41" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Group text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODGRP___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODHIER" order="42" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Hier Lvl"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODHIER"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODHIER___T" order="43" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Hier Lvl text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODHIER___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODPLFM" order="44" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Plfm"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODPLFM"/>
+      </attribute>
+      <attribute id="0MATERIAL__GPRODPLFM___T" order="45" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Gbl Prod Plfm text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__GPRODPLFM___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZAHAMFEGP" order="46" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: AHAM Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZAHAMFEGP"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZAHAMFEGP___T" order="47" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: AHAM Code text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZAHAMFEGP___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZBASEMLNR" order="48" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Base Model"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZBASEMLNR"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZBASEMLNR___T" order="49" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Base Model text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZBASEMLNR___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZCMPSTSCD" order="50" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: SAP Matl View Maint"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZCMPSTSCD"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZCNFPRC" order="51" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Confined Pricing Status"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZCNFPRC"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZCPRBMLGP" order="52" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Cmprbl Model"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZCPRBMLGP"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZHZMTLNR" order="53" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Hazardous Matl Nbr"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZHZMTLNR"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZINNOVCD" order="54" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl:  Innov Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZINNOVCD"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZINNOVCD___T" order="55" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl:  Innov Code text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZINNOVCD___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZINNOVPR" order="56" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Innov Proj"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZINNOVPR"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZINNOVPR___T" order="57" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Innov Proj text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZINNOVPR___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZITMCTGCD" order="58" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Item Catgy Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZITMCTGCD"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZITMCTGCD___T" order="59" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Item Catgy text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZITMCTGCD___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZLAPRDNDT" order="60" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Last Prodn Date"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZLAPRDNDT"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZMPCCD" order="61" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: MPC Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZMPCCD"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZMPCCD___T" order="62" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: MPC Code text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZMPCCD___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZMNTSTSCD" order="63" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: SAP Matl Mnt Dept Cd"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZMNTSTSCD"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZMTLCOLOR" order="64" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Color code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZMTLCOLOR"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZMTLCOLOR___T" order="65" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Color text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZMTLCOLOR___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZOLDMTLNR" order="66" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Old Material Nbr"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZOLDMTLNR"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRDPLNGP" order="67" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Prdn Plng Grp"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRDPLNGP"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRDPLNGP___T" order="68" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Prdn Plng Grp text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRDPLNGP___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRODH1" order="69" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Prod Main Grp"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRODH1"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRODH1___T" order="70" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Prod Main Grp text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRODH1___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRODH2" order="71" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Smry Prod Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRODH2"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRODH2___T" order="72" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Smry Prod Code text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRODH2___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRODH3" order="73" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Product Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRODH3"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRODH3___T" order="74" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Product Code text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRODH3___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRTPKGCD" order="75" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Part Pkg Matl Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRTPKGCD"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZPRTPKGCD___T" order="76" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Part Pkg Matl Code text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZPRTPKGCD___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZSNOPFMLY" order="77" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: S&amp;OP Product Family"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZSNOPFMLY"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZSNOPFMLY___T" order="78" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: S&amp;OP Product Family text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZSNOPFMLY___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZSTKPOLCY" order="79" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Stocking Policy"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZSTKPOLCY"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZSTKPOLCY___T" order="80" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Stocking Policy text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZSTKPOLCY___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZTPGPCD" order="81" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Trnspn Grp"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZTPGPCD"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZTPGPCD___T" order="82" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Trnspn Grp text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZTPGPCD___T"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZTRNCODE" order="83" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Transition Code"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZTRNCODE"/>
+      </attribute>
+      <attribute id="0MATERIAL__ZTRNCODE___T" order="84" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Transition Code text"/>
+        <keyMapping columnObjectName="AT_HB_MATERIAL" columnName="0MATERIAL__ZTRNCODE___T"/>
+      </attribute>
+    </attributes>
+    <calculatedAttributes>
+      <calculatedAttribute id="0MATERIAL__0CH_ON_CC" hidden="false" order="5" semanticType="date" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Changed on"/>
+        <keyCalculation datatype="DATE" expressionLanguage="COLUMN_ENGINE">
+          <formula>&quot;0MATERIAL__0CH_ON&quot;</formula>
+        </keyCalculation>
+      </calculatedAttribute>
+      <calculatedAttribute id="0MATERIAL__0CREATEDON_CC" hidden="false" order="7" semanticType="date" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Mtl: Created on"/>
+        <keyCalculation datatype="DATE" expressionLanguage="COLUMN_ENGINE">
+          <formula>&quot;0MATERIAL__0CREATEDON&quot;</formula>
+        </keyCalculation>
+      </calculatedAttribute>
+    </calculatedAttributes>
+    <privateDataFoundation>
+      <tableProxies/>
+      <joins/>
+      <layout>
+        <shapes/>
+      </layout>
+    </privateDataFoundation>
+    <baseMeasures/>
+    <calculatedMeasures/>
+    <restrictedMeasures/>
+    <localDimensions/>
+  </logicalModel>
+  <layout>
+    <shapes>
+      <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+        <upperLeftCorner x="40" y="85"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+    </shapes>
+  </layout>
+</Calculation:scenario>

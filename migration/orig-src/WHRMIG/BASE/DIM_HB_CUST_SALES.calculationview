@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="2.3" id="DIM_HB_CUST_SALES" applyPrivilegeType="NONE" checkAnalyticPrivileges="true" defaultClient="$$client$$" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" translationRelevant="true" visibility="internal" calculationScenarioType="TREE_BASED" dataCategory="DIMENSION" enforceSqlExecution="false" executionSemantic="UNDEFINED" outputViewType="Projection">
+  <origin/>
+  <descriptions defaultDescription="Dimension HANA Base Calculated View for 0CUST_SALES"/>
+  <metadata activatedAt="2017-05-23 16:10:18.0" changedAt="2017-03-14 12:20:26.309"/>
+  <localVariables/>
+  <variableMappings/>
+  <informationModelLayout relativeWidthScenario="26"/>
+  <dataSources>
+    <DataSource id="AT_HB_CUST_SALES" type="ATTRIBUTE_VIEW">
+      <viewAttributes allViewAttributes="true"/>
+      <resourceUri>/WHR.BASE/attributeviews/AT_HB_CUST_SALES</resourceUri>
+    </DataSource>
+  </dataSources>
+  <calculationViews/>
+  <logicalModel id="AT_HB_CUST_SALES">
+    <descriptions/>
+    <attributes>
+      <attribute id="0CUST_SALES__0CUST_SALES" key="true" order="1" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer (sales)"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_SALES"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_SALES___T" order="2" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer (sales) text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_SALES___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_SALES___TXTMD" order="3" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer (sales) med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_SALES___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0DIVISION" key="true" order="4" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Division"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0DIVISION"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0DIVISION___T" order="5" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Division text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0DIVISION___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0DIVISION___TXTSH" order="6" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Division short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0DIVISION___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0DISTR_CHAN" key="true" order="7" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Distribution Channel"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0DISTR_CHAN"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0DISTR_CHAN___T" order="8" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Distribution Channel text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0DISTR_CHAN___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0DISTR_CHAN___TXTSH" order="9" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Distribution Channel short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0DISTR_CHAN___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALESORG" key="true" order="10" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales Organization"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALESORG"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALESORG___T" order="11" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales Organization text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALESORG___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALESORG___TXTLG" order="12" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales Organization long text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALESORG___TXTLG"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0ACCNT_ASGN" order="13" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Acct Asgn"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0ACCNT_ASGN"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0ACCNT_ASGN___T" order="14" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Acct Asgn text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0ACCNT_ASGN___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0ACCNT_ASGN___TXTSH" order="15" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Acct Asgn short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0ACCNT_ASGN___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0COMPL_DEL" order="16" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Delvry Compl Indicator"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0COMPL_DEL"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CREATEDON" order="17" semanticType="date" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Created on"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CREATEDON"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GROUP" order="19" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer group"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GROUP"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GROUP___T" order="20" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer group text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GROUP___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GROUP___TXTSH" order="21" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer group short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GROUP___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP1" order="22" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer Segment Code"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP1"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP1___T" order="23" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer Segment Code text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP1___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP1___TXTSH" order="24" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Customer Segment Code short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP1___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP2" order="25" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: CustPrcGrpOverrideCd"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP2"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP2___T" order="26" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: CustPrcGrpOverrideCd text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP2___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP2___TXTSH" order="27" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: CustPrcGrpOverrideCd short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP2___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP4" order="28" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: APO TP Grp"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP4"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP4___T" order="29" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: APO TP Grp text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP4___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP4___TXTSH" order="30" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: APO TP Grp short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP4___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP5" order="31" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: APO Dmd Fcst"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP5"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP5___T" order="32" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: APO Dmd Fcst text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP5___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0CUST_GRP5___TXTSH" order="33" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: APO Dmd Fcst short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0CUST_GRP5___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0INCOTERMS" order="34" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Incoterms"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0INCOTERMS"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0INCOTERMS___T" order="35" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Incoterms text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0INCOTERMS___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0INCOTERMS2" order="36" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Incoterms 2"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0INCOTERMS2"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0INCOTERMS___TXTMD" order="37" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Incoterms med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0INCOTERMS___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0ORDER_COMB" order="38" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: ID:Order Combination"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0ORDER_COMB"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0ORDER_PROB" order="39" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Order probability"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0ORDER_PROB"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PAYER" order="40" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payer"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PAYER"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PAYER___T" order="41" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payer text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PAYER___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PAYER___TXTMD" order="42" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payer med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PAYER___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PLANT" order="43" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Plant"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PLANT"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PLANT___T" order="44" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Plant text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PLANT___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PLANT___TXTMD" order="45" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Plant med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PLANT___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PMNTTRMS" order="46" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payment terms"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PMNTTRMS"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PMNTTRMS___T" order="47" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payment terms text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PMNTTRMS___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0PMNTTRMS___TXTMD" order="48" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payment terms med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0PMNTTRMS___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_DIST" order="49" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales district"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_DIST"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_DIST___T" order="50" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales district text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_DIST___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_DIST___TXTSH" order="51" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales district short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_DIST___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_GRP" order="52" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales group"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_GRP"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_GRP___T" order="53" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales group text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_GRP___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_GRP___TXTSH" order="54" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales group short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_GRP___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_OFF" order="55" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales office"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_OFF"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_OFF___T" order="56" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales office text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_OFF___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SALES_OFF___TXTSH" order="57" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Sales office short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SALES_OFF___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SHIP_COND" order="58" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Shipping conditions"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SHIP_COND"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SHIP_COND___T" order="59" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Shipping conditions text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SHIP_COND___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__0SHIP_COND___TXTSH" order="60" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Shipping conditions short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__0SHIP_COND___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__GSLSCHAN" order="61" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Gbl Sls Chan"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__GSLSCHAN"/>
+      </attribute>
+      <attribute id="0CUST_SALES__GSLSCHAN___T" order="62" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Gbl Sls Chan text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__GSLSCHAN___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__GSLSCHAN___TXTSH" order="63" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Gbl Sls Chan short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__GSLSCHAN___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZACTMGRNR" order="64" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Acct Mgr Nbr"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZACTMGRNR"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZACTMGRNR___T" order="65" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Acct Mgr Nbr text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZACTMGRNR___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZACTMGRNR___TXTMD" order="66" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Acct Mgr Nbr med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZACTMGRNR___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPCH" order="67" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Chp"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPCH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPCH___T" order="68" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Chp text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPCH___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPCH___TXTMD" order="69" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Chp med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPCH___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPCH2" order="70" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Chp2"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPCH2"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPCH2___T" order="71" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Chp2 text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPCH2___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPCH2___TXTMD" order="72" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Chp2 med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPCH2___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPHI" order="73" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp High Lvl Nbr"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPHI"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPHI___T" order="74" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp High Lvl Nbr text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPHI___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPHI___TXTMD" order="75" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp High Lvl Nbr med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPHI___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPMS" order="76" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Mstr"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPMS"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPMS___T" order="77" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Mstr text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPMS___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPMS___TXTMD" order="78" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Mstr med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPMS___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPNR" order="79" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Nbr"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPNR"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPNR___T" order="80" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Nbr text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPNR___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZBUYGPNR___TXTMD" order="81" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Buy Gp Nbr med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZBUYGPNR___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCOACTNR" order="82" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Company (WHR) Acct Nbr"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCOACTNR"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCRCYCD" order="83" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Currency"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCRCYCD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTHI" order="84" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Cust Hi Lvl"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTHI"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTHI___T" order="85" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Cust Hi Lvl text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTHI___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTHI___TXTMD" order="86" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Cust Hi Lvl med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTHI___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL1___T" order="87" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Custsls: Payout Lvl 1 text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL1___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL1" order="88" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Custsls: Payout Lvl 1"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL1"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL1___TXTMD" order="89" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Custsls: Payout Lvl 1 med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL1___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL2" order="90" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payout Lvl 2"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL2"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL2___T" order="91" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payout Lvl 2 text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL2___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL2___TXTMD" order="92" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payout Lvl 2 med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL2___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL3" order="93" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payout Lvl 3"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL3"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL3___T" order="94" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payout Lvl 3 text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL3___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZCUSTLVL3___TXTMD" order="95" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Payout Lvl 3 med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZCUSTLVL3___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZDLVBLCK" order="96" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Delivery Block"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZDLVBLCK"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZDLVBLCK___T" order="97" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Delivery Block text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZDLVBLCK___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZDLVBLCK___TXTSH" order="98" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Delivery Block short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZDLVBLCK___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZITEMPRTL" order="99" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Item Partial Dlv"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZITEMPRTL"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZITEMPRTL___T" order="100" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Item Partial Dlv text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZITEMPRTL___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZITEMPRTL___TXTLG" order="101" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Item Partial Dlv long text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZITEMPRTL___TXTLG"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZITEMPRTL___TXTMD" order="102" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Item Partial Dlv med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZITEMPRTL___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZITEMPRTL___TXTSH" order="103" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Item Partial Dlv short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZITEMPRTL___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZJAMMGRNR" order="104" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Jenn-Air Mkt Mgr"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZJAMMGRNR"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZJAMMGRNR___T" order="105" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Jenn-Air Mkt Mgr text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZJAMMGRNR___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZJAMMGRNR___TXTMD" order="106" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Jenn-Air Mkt Mgr med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZJAMMGRNR___TXTMD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZMYGCUST" order="107" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Maytag Customer"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZMYGCUST"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZODBLCKCD" order="108" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Cust Order Block Cd"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZODBLCKCD"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZODBLCKCD___T" order="109" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Cust Order Block Cd text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZODBLCKCD___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZODBLCKCD___TXTSH" order="110" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Cust Order Block Cd short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZODBLCKCD___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZPRCGP" order="111" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Price Group"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZPRCGP"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZPRCGP___T" order="112" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Price Group text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZPRCGP___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZPRCGP___TXTSH" order="113" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Price Group short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZPRCGP___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZPRCPROC" order="114" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Pricing Procedure"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZPRCPROC"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZPRCPROC___TXTSH" order="115" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Pricing Procedure short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZPRCPROC___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZPRTLDLV" order="116" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Nbr of Prtl Dlv Allowed"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZPRTLDLV"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZPRCPROC___T" order="117" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Pricing Procedure text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZPRCPROC___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZSTTSGP_CustSl" order="118" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Stats Group"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZSTTSGP_CustSl"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZSTTSGP___T" order="119" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Stats Group text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZSTTSGP___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZSTTSGP___TXTSH" order="120" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Stats Group short text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZSTTSGP___TXTSH"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZTSLSNR" order="121" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Inside Sales Rep"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZTSLSNR"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZTSLSNR___T" order="122" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Inside Sales Rep text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZTSLSNR___T"/>
+      </attribute>
+      <attribute id="0CUST_SALES__ZTSLSNR___TXTMD" order="123" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Inside Sales Rep med text"/>
+        <keyMapping columnObjectName="AT_HB_CUST_SALES" columnName="0CUST_SALES__ZTSLSNR___TXTMD"/>
+      </attribute>
+    </attributes>
+    <calculatedAttributes>
+      <calculatedAttribute id="0CUST_SALES__0CREATEDON_CC" hidden="false" order="18" semanticType="date" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="CustSls: Created on"/>
+        <keyCalculation datatype="DATE" expressionLanguage="COLUMN_ENGINE">
+          <formula>&quot;0CUST_SALES__0CREATEDON&quot;</formula>
+        </keyCalculation>
+      </calculatedAttribute>
+    </calculatedAttributes>
+    <privateDataFoundation>
+      <tableProxies/>
+      <joins/>
+      <layout>
+        <shapes/>
+      </layout>
+    </privateDataFoundation>
+    <baseMeasures/>
+    <calculatedMeasures/>
+    <restrictedMeasures/>
+    <localDimensions/>
+  </logicalModel>
+  <layout>
+    <shapes>
+      <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+        <upperLeftCorner x="40" y="85"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+    </shapes>
+  </layout>
+</Calculation:scenario>

@@ -1,0 +1,904 @@
+Type: GRANTOR_SERVICE
+Subpath: undefined
+Covered Objects: 
+
+- SAPBIW./BIC/AZCOPALIC00
+  Synonymname: WHRMIG::/BIC/AZCOPALIC00
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- _SYS_BI.M_TIME_DIMENSION
+  Synonymname: WHRMIG::M_TIME_DIMENSION
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPROMMAPI
+  Synonymname: WHRMIG::/BIC/TZPROMMAPI
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPROFSEGC
+  Synonymname: WHRMIG::/BIC/TZPROFSEGC
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPROFSEG
+  Synonymname: WHRMIG::/BIC/TZPROFSEG
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPRODH3
+  Synonymname: WHRMIG::/BIC/TZPRODH3
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPRODH2
+  Synonymname: WHRMIG::/BIC/TZPRODH2
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPRODH1
+  Synonymname: WHRMIG::/BIC/TZPRODH1
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPRFTLOSS
+  Synonymname: WHRMIG::/BIC/TZPRFTLOSS
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPRCSHTNR
+  Synonymname: WHRMIG::/BIC/TZPRCSHTNR
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPRCGP
+  Synonymname: WHRMIG::/BIC/TZPRCGP
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPLANACTL
+  Synonymname: WHRMIG::/BIC/TZPLANACTL
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TCURTYPE
+  Synonymname: WHRMIG::/BI0/TCURTYPE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPERIOTO
+  Synonymname: WHRMIG::/BIC/TZPERIOTO
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZORIGIN
+  Synonymname: WHRMIG::/BIC/TZORIGIN
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZMTLSTSCD
+  Synonymname: WHRMIG::/BIC/TZMTLSTSCD
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZMSRPIND
+  Synonymname: WHRMIG::/BIC/TZMSRPIND
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZMAPIND
+  Synonymname: WHRMIG::/BIC/TZMAPIND
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZLDC_MX
+  Synonymname: WHRMIG::/BIC/TZLDC_MX
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TCUSTOMER
+  Synonymname: WHRMIG::/BI0/TCUSTOMER
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZITEM_NUM
+  Synonymname: WHRMIG::/BIC/TZITEM_NUM
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZINNOVPR
+  Synonymname: WHRMIG::/BIC/TZINNOVPR
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZFRTROUTE
+  Synonymname: WHRMIG::/BIC/TZFRTROUTE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW.TCURT
+  Synonymname: WHRMIG::TCURT
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BIC/TZFCSRCCD
+  Synonymname: WHRMIG::/BIC/TZFCSRCCD
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCTSQTYD
+  Synonymname: WHRMIG::/BIC/TZCTSQTYD
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCPRBMLGP
+  Synonymname: WHRMIG::/BIC/TZCPRBMLGP
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCOSTOBJ
+  Synonymname: WHRMIG::/BIC/TZCOSTOBJ
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCOMPCURR
+  Synonymname: WHRMIG::/BIC/TZCOMPCURR
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCCTRCTGY
+  Synonymname: WHRMIG::/BIC/TZCCTRCTGY
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCANCELIT
+  Synonymname: WHRMIG::/BIC/TZCANCELIT
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCANCELDO
+  Synonymname: WHRMIG::/BIC/TZCANCELDO
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZAHAMCODE
+  Synonymname: WHRMIG::/BIC/TZAHAMCODE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TCREATEDBY
+  Synonymname: WHRMIG::/BI0/TCREATEDBY
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TGTPARTNER
+  Synonymname: WHRMIG::/BIC/TGTPARTNER
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TGSLSCHAN
+  Synonymname: WHRMIG::/BIC/TGSLSCHAN
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TGPRODPLNT
+  Synonymname: WHRMIG::/BIC/TGPRODPLNT
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TGPRODPLFM
+  Synonymname: WHRMIG::/BIC/TGPRODPLFM
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BIC/TGPRODGRP
+  Synonymname: WHRMIG::/BIC/TGPRODGRP
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BIC/TGPRODFAM
+  Synonymname: WHRMIG::/BIC/TGPRODFAM
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BIC/TGPRODCTGY
+  Synonymname: WHRMIG::/BIC/TGPRODCTGY
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TGPRODCD
+  Synonymname: WHRMIG::/BIC/TGPRODCD
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TGLNOFBUS
+  Synonymname: WHRMIG::/BIC/TGLNOFBUS
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BI0/TCO_AREA
+  Synonymname: WHRMIG::/BI0/TCO_AREA
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TGCPOTYP
+  Synonymname: WHRMIG::/BIC/TGCPOTYP
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TGCOPAPTNR
+  Synonymname: WHRMIG::/BIC/TGCOPAPTNR
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TGCOPACHNG
+  Synonymname: WHRMIG::/BIC/TGCOPACHNG
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TC_ARAWTYP
+  Synonymname: WHRMIG::/BIC/TC_ARAWTYP
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TWBS_ELEMT
+  Synonymname: WHRMIG::/BI0/TWBS_ELEMT
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW.T006A
+  Synonymname: WHRMIG::T006A
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BI0/TVERSION
+  Synonymname: WHRMIG::/BI0/TVERSION
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TVALUATION
+  Synonymname: WHRMIG::/BI0/TVALUATION
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TCOSTELMNT
+  Synonymname: WHRMIG::/BI0/TCOSTELMNT
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TSALES_OFF
+  Synonymname: WHRMIG::/BI0/TSALES_OFF
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TSALES_GRP
+  Synonymname: WHRMIG::/BI0/TSALES_GRP
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.hdbcalculationview
+
+
+- SAPBIW./BI0/TSALES_DIST
+  Synonymname: WHRMIG::/BI0/TSALES_DIST
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TSALESORG
+  Synonymname: WHRMIG::/BI0/TSALESORG
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BI0/TREC_TYPE
+  Synonymname: WHRMIG::/BI0/TREC_TYPE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TPROFIT_CTR
+  Synonymname: WHRMIG::/BI0/TPROFIT_CTR
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TPMNTTRMS
+  Synonymname: WHRMIG::/BI0/TPMNTTRMS
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TPLANT
+  Synonymname: WHRMIG::/BI0/TPLANT
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TCOMPANY
+  Synonymname: WHRMIG::/BI0/TCOMPANY
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TCOORDER
+  Synonymname: WHRMIG::/BI0/TCOORDER
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TMATL_TYPE
+  Synonymname: WHRMIG::/BI0/TMATL_TYPE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TMATL_GRP_1
+  Synonymname: WHRMIG::/BI0/TMATL_GRP_1
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BI0/TCOMP_CODE
+  Synonymname: WHRMIG::/BI0/TCOMP_CODE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TMATERIAL
+  Synonymname: WHRMIG::/BI0/TMATERIAL
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TINCOTERMS
+  Synonymname: WHRMIG::/BI0/TINCOTERMS
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TFUNC_AREA
+  Synonymname: WHRMIG::/BI0/TFUNC_AREA
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TDOC_NUMBER
+  Synonymname: WHRMIG::/BI0/TDOC_NUMBER
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TDIVISION
+  Synonymname: WHRMIG::/BI0/TDIVISION
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TDISTR_CHAN
+  Synonymname: WHRMIG::/BI0/TDISTR_CHAN
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BI0/TBUS_AREA
+  Synonymname: WHRMIG::/BI0/TBUS_AREA
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TCUST_SALES
+  Synonymname: WHRMIG::/BI0/TCUST_SALES
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.hdbcalculationview
+
+
+- SAPBIW./BI0/TCUST_GRP3
+  Synonymname: WHRMIG::/BI0/TCUST_GRP3
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TCUST_GRP1
+  Synonymname: WHRMIG::/BI0/TCUST_GRP1
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.hdbcalculationview
+
+
+- SAPBIW./BI0/TCUST_GROUP
+  Synonymname: WHRMIG::/BI0/TCUST_GROUP
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.hdbcalculationview
+
+
+- SAPBIW./BIC/TZWCPTFN
+  Synonymname: WHRMIG::/BIC/TZWCPTFN
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZUPDSTALI
+  Synonymname: WHRMIG::/BIC/TZUPDSTALI
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZTOWIND
+  Synonymname: WHRMIG::/BIC/TZTOWIND
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSTATE
+  Synonymname: WHRMIG::/BIC/TZSTATE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSHPDOCTY
+  Synonymname: WHRMIG::/BIC/TZSHPDOCTY
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSHIPTORE
+  Synonymname: WHRMIG::/BIC/TZSHIPTORE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSENDCOST
+  Synonymname: WHRMIG::/BIC/TZSENDCOST
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSENDBUSP
+  Synonymname: WHRMIG::/BIC/TZSENDBUSP
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZREF_ITEM
+  Synonymname: WHRMIG::/BIC/TZREF_ITEM
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/TBILL_TYPE
+  Synonymname: WHRMIG::/BI0/TBILL_TYPE
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/PMATERIAL
+  Synonymname: WHRMIG::/BI0/PMATERIAL
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- ABAP./BIC/TZSNOPFMLY
+  Synonymname: WHRMIG::/BIC/TZSNOPFMLY
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- ABAP./BIC/TGPRODHIER
+  Synonymname: WHRMIG::/BIC/TGPRODHIER
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZMTLCOLOR
+  Synonymname: WHRMIG::/BIC/TZMTLCOLOR
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BIC/TZLABOR
+  Synonymname: WHRMIG::/BIC/TZLABOR
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/PCUST_SALES
+  Synonymname: WHRMIG::/BI0/PCUST_SALES
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.hdbcalculationview
+
+
+- SAPBIW.TCURV
+  Synonymname: WHRMIG::TCURV
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW.TCURX
+  Synonymname: WHRMIG::TCURX
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW.TCURN
+  Synonymname: WHRMIG::TCURN
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW.TCURF
+  Synonymname: WHRMIG::TCURF
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW.TCURR
+  Synonymname: WHRMIG::TCURR
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.hdbcalculationview
+
+
+- SAPBIW./BI0/PMAT_PLANT
+  Synonymname: WHRMIG::/BI0/PMAT_PLANT
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TABCKEY
+  Synonymname: WHRMIG::/BI0/TABCKEY
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TPUR_GROUP
+  Synonymname: WHRMIG::/BI0/TPUR_GROUP
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZAVLCKGP
+  Synonymname: WHRMIG::/BIC/TZAVLCKGP
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TCOUNTRY
+  Synonymname: WHRMIG::/BI0/TCOUNTRY
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCULDCD
+  Synonymname: WHRMIG::/BIC/TZCULDCD
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZEXPGPCD
+  Synonymname: WHRMIG::/BIC/TZEXPGPCD
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZFAMILY
+  Synonymname: WHRMIG::/BIC/TZFAMILY
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZFAMLYGRP
+  Synonymname: WHRMIG::/BIC/TZFAMLYGRP
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZINVDPLIR
+  Synonymname: WHRMIG::/BIC/TZINVDPLIR
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZLOTSZ
+  Synonymname: WHRMIG::/BIC/TZLOTSZ
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZMRP_CTRL
+  Synonymname: WHRMIG::/BIC/TZMRP_CTRL
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZMTLFRTGP
+  Synonymname: WHRMIG::/BIC/TZMTLFRTGP
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZMTLVALCG
+  Synonymname: WHRMIG::/BIC/TZMTLVALCG
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPLTSTSCD
+  Synonymname: WHRMIG::/BIC/TZPLTSTSCD
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSTLCNR
+  Synonymname: WHRMIG::/BIC/TZSTLCNR
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSERNRPFL
+  Synonymname: WHRMIG::/BIC/TZSERNRPFL
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSPLPRTYP
+  Synonymname: WHRMIG::/BIC/TZSPLPRTYP
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TREGION
+  Synonymname: WHRMIG::/BI0/TREGION
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSVCLVL
+  Synonymname: WHRMIG::/BIC/TZSVCLVL
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/TZTRFFCLSS
+  Synonymname: WHRMIG::/BIC/TZTRFFCLSS
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TDISMM
+  Synonymname: WHRMIG::/BI0/TDISMM
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TMAT_PLANT
+  Synonymname: WHRMIG::/BI0/TMAT_PLANT
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BI0/TMRP_CONTRL
+  Synonymname: WHRMIG::/BI0/TMRP_CONTRL
+  Users: 
+  - ./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.hdbcalculationview
+
+
+- SAPBIW./BIC/AZGPSLOD300
+  Synonymname: WHRMIG::/BIC/AZGPSLOD300
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.hdbcalculationview
+
+
+- SAPBIW./BIC/TZVERSPRI
+  Synonymname: WHRMIG::/BIC/TZVERSPRI
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BIC/TZVERSCUR
+  Synonymname: WHRMIG::/BIC/TZVERSCUR
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCHANNEL4
+  Synonymname: WHRMIG::/BIC/TZCHANNEL4
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BIC/AZGPSPPCH00
+  Synonymname: WHRMIG::/BIC/AZGPSPPCH00
+  Users: 
+  - ./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.hdbcalculationview
+
+
+- SAPBIW./BI0/PCUSTOMER
+  Synonymname: WHRMIG::/BI0/PCUSTOMER
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TACCNT_GRP
+  Synonymname: WHRMIG::/BI0/TACCNT_GRP
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TNIELSEN_ID
+  Synonymname: WHRMIG::/BI0/TNIELSEN_ID
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TREPR_GROUP
+  Synonymname: WHRMIG::/BI0/TREPR_GROUP
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TRISK_CATEG
+  Synonymname: WHRMIG::/BI0/TRISK_CATEG
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TTRZONE
+  Synonymname: WHRMIG::/BI0/TTRZONE
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TVENDOR
+  Synonymname: WHRMIG::/BI0/TVENDOR
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZAATPCD
+  Synonymname: WHRMIG::/BIC/TZAATPCD
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZCRGRP
+  Synonymname: WHRMIG::/BIC/TZCRGRP
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZDFSTLCNR
+  Synonymname: WHRMIG::/BIC/TZDFSTLCNR
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZDLVBLCK
+  Synonymname: WHRMIG::/BIC/TZDLVBLCK
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZLIENWAIV
+  Synonymname: WHRMIG::/BIC/TZLIENWAIV
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZODBLCKCD
+  Synonymname: WHRMIG::/BIC/TZODBLCKCD
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZPODRQDIR
+  Synonymname: WHRMIG::/BIC/TZPODRQDIR
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSETASDCD
+  Synonymname: WHRMIG::/BIC/TZSETASDCD
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZSTFRIND
+  Synonymname: WHRMIG::/BIC/TZSTFRIND
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZTDLINKS
+  Synonymname: WHRMIG::/BIC/TZTDLINKS
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZURLSTORE
+  Synonymname: WHRMIG::/BIC/TZURLSTORE
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BIC/TZVRTXTAX
+  Synonymname: WHRMIG::/BIC/TZVRTXTAX
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TCUST_CLASS
+  Synonymname: WHRMIG::/BI0/TCUST_CLASS
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- SAPBIW./BI0/TC_CTR_AREA
+  Synonymname: WHRMIG::/BI0/TC_CTR_AREA
+  Users: 
+  - ./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.hdbcalculationview
+
+
+- ABAP./BIC/HZPRODH2
+  Synonymname: WHRMIG::/BIC/HZPRODH2
+  Users: 
+  - ./WHRMIG/BUS/ISC/OTR/calculationviews/CV_ZPRODH2_HIER_LVL.hdbcalculationview
+
+
+- ABAP.RSTHIERNODE
+  Synonymname: WHRMIG::RSTHIERNODE
+  Users: 
+  - ./WHRMIG/BUS/ISC/OTR/calculationviews/CV_ZPRODH2_HIER_LVL.hdbcalculationview
+
+

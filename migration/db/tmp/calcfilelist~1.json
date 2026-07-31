@@ -1,0 +1,12 @@
+[
+    "./WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.calculationview",
+    "./WHRMIG/BASE/DIM_HB_CUST_SALES.calculationview",
+    "./WHRMIG/BASE/DIM_HB_MATERIAL.calculationview",
+    "./WHRMIG/BASE/DIM_HB_MAT_PLANT_CVTD.calculationview",
+    "./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSLOD3.calculationview",
+    "./WHRMIG/BASE/FIN/TRANS/CV_HB_ZGPSPPCH.calculationview",
+    "./WHRMIG/BASE/ISC/TRANS/CVTD/CV_HB_SOLD_TO.calculationview",
+    "./WHRMIG/BUS/FIN/COPA/CV_ZCOPALIC.calculationview",
+    "./WHRMIG/BUS/FIN/ISC/CV_ZPRODH2_HIER_LVL.calculationview",
+    "./WHRMIG/BUS/ISC/OTR/calculationviews/CV_ZPRODH2_HIER_LVL.calculationview"
+]
