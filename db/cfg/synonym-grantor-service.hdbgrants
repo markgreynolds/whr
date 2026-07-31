@@ -1,0 +1,2112 @@
+{
+    "synonym-grantor-service": {
+        "object_owner": {
+            "object_privileges": [
+                {
+                    "name": "/BIC/AZCOPALIC00",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "M_TIME_DIMENSION",
+                    "schema": "_SYS_BI",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPROMMAPI",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPROFSEGC",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPROFSEG",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPRODH3",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPRODH2",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPRODH1",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPRFTLOSS",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPRCSHTNR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPRCGP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPLANACTL",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCURTYPE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPERIOTO",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZORIGIN",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZMTLSTSCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZMSRPIND",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZMAPIND",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZLDC_MX",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCUSTOMER",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZITEM_NUM",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZINNOVPR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZFRTROUTE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "TCURT",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZFCSRCCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCTSQTYD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCPRBMLGP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCOSTOBJ",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCOMPCURR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCCTRCTGY",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCANCELIT",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCANCELDO",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZAHAMCODE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCREATEDBY",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGTPARTNER",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGSLSCHAN",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGPRODPLNT",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGPRODPLFM",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGPRODGRP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGPRODFAM",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGPRODCTGY",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGPRODCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGLNOFBUS",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCO_AREA",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGCPOTYP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGCOPAPTNR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGCOPACHNG",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TC_ARAWTYP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TWBS_ELEMT",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "T006A",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TVERSION",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TVALUATION",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCOSTELMNT",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TSALES_OFF",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TSALES_GRP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TSALES_DIST",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TSALESORG",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TREC_TYPE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TPROFIT_CTR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TPMNTTRMS",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TPLANT",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCOMPANY",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCOORDER",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TMATL_TYPE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TMATL_GRP_1",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCOMP_CODE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TMATERIAL",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TINCOTERMS",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TFUNC_AREA",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TDOC_NUMBER",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TDIVISION",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TDISTR_CHAN",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TBUS_AREA",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCUST_SALES",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCUST_GRP3",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCUST_GRP1",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCUST_GROUP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZWCPTFN",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZUPDSTALI",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZTOWIND",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSTATE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSHPDOCTY",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSHIPTORE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSENDCOST",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSENDBUSP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZREF_ITEM",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TBILL_TYPE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/PMATERIAL",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSNOPFMLY",
+                    "schema": "ABAP",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TGPRODHIER",
+                    "schema": "ABAP",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZMTLCOLOR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZLABOR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/PCUST_SALES",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "TCURV",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "TCURX",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "TCURN",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "TCURF",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "TCURR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/PMAT_PLANT",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TABCKEY",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TPUR_GROUP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZAVLCKGP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCOUNTRY",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCULDCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZEXPGPCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZFAMILY",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZFAMLYGRP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZINVDPLIR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZLOTSZ",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZMRP_CTRL",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZMTLFRTGP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZMTLVALCG",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPLTSTSCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSTLCNR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSERNRPFL",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSPLPRTYP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TREGION",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSVCLVL",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZTRFFCLSS",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TDISMM",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TMAT_PLANT",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TMRP_CONTRL",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/AZGPSLOD300",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZVERSPRI",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZVERSCUR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCHANNEL4",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/AZGPSPPCH00",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/PCUSTOMER",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TACCNT_GRP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TNIELSEN_ID",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TREPR_GROUP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TRISK_CATEG",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TTRZONE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TVENDOR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZAATPCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZCRGRP",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZDFSTLCNR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZDLVBLCK",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZLIENWAIV",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZODBLCKCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZPODRQDIR",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSETASDCD",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZSTFRIND",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZTDLINKS",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZURLSTORE",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/TZVRTXTAX",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TCUST_CLASS",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BI0/TC_CTR_AREA",
+                    "schema": "SAPBIW",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "/BIC/HZPRODH2",
+                    "schema": "ABAP",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                },
+                {
+                    "name": "RSTHIERNODE",
+                    "schema": "ABAP",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                }
+            ]
+        },
+        "application_user": {
+            "object_privileges": [
+                {
+                    "name": "/BIC/AZCOPALIC00",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "M_TIME_DIMENSION",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "_SYS_BI"
+                },
+                {
+                    "name": "/BIC/TZPROMMAPI",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPROFSEGC",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPROFSEG",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPRODH3",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPRODH2",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPRODH1",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPRFTLOSS",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPRCSHTNR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPRCGP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPLANACTL",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCURTYPE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPERIOTO",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZORIGIN",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZMTLSTSCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZMSRPIND",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZMAPIND",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZLDC_MX",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCUSTOMER",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZITEM_NUM",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZINNOVPR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZFRTROUTE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "TCURT",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZFCSRCCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCTSQTYD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCPRBMLGP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCOSTOBJ",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCOMPCURR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCCTRCTGY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCANCELIT",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCANCELDO",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZAHAMCODE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCREATEDBY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGTPARTNER",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGSLSCHAN",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGPRODPLNT",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGPRODPLFM",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGPRODGRP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGPRODFAM",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGPRODCTGY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGPRODCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGLNOFBUS",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCO_AREA",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGCPOTYP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGCOPAPTNR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TGCOPACHNG",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TC_ARAWTYP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TWBS_ELEMT",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "T006A",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TVERSION",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TVALUATION",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCOSTELMNT",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TSALES_OFF",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TSALES_GRP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TSALES_DIST",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TSALESORG",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TREC_TYPE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TPROFIT_CTR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TPMNTTRMS",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TPLANT",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCOMPANY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCOORDER",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TMATL_TYPE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TMATL_GRP_1",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCOMP_CODE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TMATERIAL",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TINCOTERMS",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TFUNC_AREA",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TDOC_NUMBER",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TDIVISION",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TDISTR_CHAN",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TBUS_AREA",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCUST_SALES",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCUST_GRP3",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCUST_GRP1",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCUST_GROUP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZWCPTFN",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZUPDSTALI",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZTOWIND",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSTATE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSHPDOCTY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSHIPTORE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSENDCOST",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSENDBUSP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZREF_ITEM",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TBILL_TYPE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/PMATERIAL",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSNOPFMLY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "ABAP"
+                },
+                {
+                    "name": "/BIC/TGPRODHIER",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "ABAP"
+                },
+                {
+                    "name": "/BIC/TZMTLCOLOR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZLABOR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/PCUST_SALES",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "TCURV",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "TCURX",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "TCURN",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "TCURF",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "TCURR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/PMAT_PLANT",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TABCKEY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TPUR_GROUP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZAVLCKGP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCOUNTRY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCULDCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZEXPGPCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZFAMILY",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZFAMLYGRP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZINVDPLIR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZLOTSZ",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZMRP_CTRL",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZMTLFRTGP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZMTLVALCG",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPLTSTSCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSTLCNR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSERNRPFL",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSPLPRTYP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TREGION",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSVCLVL",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZTRFFCLSS",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TDISMM",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TMAT_PLANT",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TMRP_CONTRL",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/AZGPSLOD300",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZVERSPRI",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZVERSCUR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCHANNEL4",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/AZGPSPPCH00",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/PCUSTOMER",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TACCNT_GRP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TNIELSEN_ID",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TREPR_GROUP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TRISK_CATEG",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TTRZONE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TVENDOR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZAATPCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZCRGRP",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZDFSTLCNR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZDLVBLCK",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZLIENWAIV",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZODBLCKCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZPODRQDIR",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSETASDCD",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZSTFRIND",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZTDLINKS",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZURLSTORE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/TZVRTXTAX",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TCUST_CLASS",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BI0/TC_CTR_AREA",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "SAPBIW"
+                },
+                {
+                    "name": "/BIC/HZPRODH2",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "ABAP"
+                },
+                {
+                    "name": "RSTHIERNODE",
+                    "privileges": [
+                        "SELECT"
+                    ],
+                    "schema": "ABAP"
+                }
+            ]
+        }
+    }
+}

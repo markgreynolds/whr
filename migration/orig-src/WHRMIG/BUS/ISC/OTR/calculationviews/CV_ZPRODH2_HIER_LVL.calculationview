@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" xmlns:Dimension="http://www.sap.com/ndb/BiModelDimension.ecore" schemaVersion="2.3" id="CV_ZPRODH2_HIER_LVL" applyPrivilegeType="NONE" cacheInvalidationPeriod="DAILY" defaultClient="$$client$$" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" translationRelevant="true" visibility="internal" calculationScenarioType="TREE_BASED" dataCategory="DIMENSION" enforceSqlExecution="false" executionSemantic="UNDEFINED" outputViewType="Projection" propagateInstantiation="true">
+  <origin/>
+  <descriptions defaultDescription="Summary Product Code (SPC) Hierarhcy - OTR UNIT GROUPINGS"/>
+  <metadata changedAt="2026-07-22 10:33:26.759"/>
+  <localVariables>
+    <variable id="IP_HIER" parameter="true">
+      <descriptions defaultDescription="Enter Hierarchy"/>
+      <variableProperties datatype="NVARCHAR" defaultValue="41295UFLSE5HUXGNJ3O67JEDK" length="25" mandatory="true" scale="0">
+        <valueDomain type="AttributeValue">
+          <externalLikeStructureName>&quot;ABAP&quot;.RSTHIERNODE</externalLikeStructureName>
+          <externalLikeElementName>HIEID</externalLikeElementName>
+        </valueDomain>
+        <selection multiLine="false" type="SingleValue"/>
+      </variableProperties>
+    </variable>
+    <variable id="IP_LANGU" parameter="true">
+      <descriptions defaultDescription="Enter Langue"/>
+      <variableProperties datatype="NVARCHAR" defaultValue="E" length="1" mandatory="false" scale="0">
+        <valueDomain type="AttributeValue">
+          <externalLikeStructureName>&quot;ABAP&quot;.RSTHIERNODE</externalLikeStructureName>
+          <externalLikeElementName>LANGU</externalLikeElementName>
+        </valueDomain>
+        <selection multiLine="false" type="SingleValue"/>
+      </variableProperties>
+    </variable>
+  </localVariables>
+  <variableMappings/>
+  <informationModelLayout relativeWidthScenario="73"/>
+  <dataSources>
+    <DataSource id="/BIC/HZPRODH2" type="DATA_BASE_TABLE">
+      <viewAttributes allViewAttributes="true"/>
+      <columnObject schemaName="ABAP" columnObjectName="/BIC/HZPRODH2"/>
+    </DataSource>
+    <DataSource id="PR_Parent$$$$/BIC/HZPRODH2$$" type="DATA_BASE_TABLE">
+      <viewAttributes allViewAttributes="true"/>
+      <columnObject schemaName="ABAP" columnObjectName="/BIC/HZPRODH2"/>
+    </DataSource>
+    <DataSource id="RSTHIERNODE" type="DATA_BASE_TABLE">
+      <viewAttributes allViewAttributes="true"/>
+      <columnObject schemaName="ABAP" columnObjectName="RSTHIERNODE"/>
+    </DataSource>
+    <DataSource id="/BIC/TZPRODH2" type="DATA_BASE_TABLE">
+      <viewAttributes allViewAttributes="true"/>
+      <columnObject schemaName="ABAP" columnObjectName="/BIC/TZPRODH2"/>
+    </DataSource>
+  </dataSources>
+  <calculationViews>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_Child">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="HIEID">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="$$IP_HIER$$"/>
+        </viewAttribute>
+        <viewAttribute id="NODENAME"/>
+        <viewAttribute id="NODEID"/>
+        <viewAttribute id="PARENTID"/>
+        <viewAttribute id="IOBJNM"/>
+        <viewAttribute id="CHILDID"/>
+        <viewAttribute id="TLEVEL"/>
+      </viewAttributes>
+      <calculatedViewAttributes>
+        <calculatedViewAttribute datatype="NVARCHAR" id="CC_LEAF" length="1" expressionLanguage="COLUMN_ENGINE">
+          <formula>if(&quot;CHILDID&quot; = '00000000' and &quot;IOBJNM&quot;= 'ZPRODH2' , 1, 0)</formula>
+        </calculatedViewAttribute>
+      </calculatedViewAttributes>
+      <input node="#/BIC/HZPRODH2">
+        <mapping xsi:type="Calculation:AttributeMapping" target="HIEID" source="HIEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODENAME" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODEID" source="NODEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENTID" source="PARENTID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="IOBJNM" source="IOBJNM"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILDID" source="CHILDID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TLEVEL" source="TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_Parent">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="HIEID">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="$$IP_HIER$$"/>
+        </viewAttribute>
+        <viewAttribute id="NODEID"/>
+        <viewAttribute id="NODENAME"/>
+        <viewAttribute id="PARENTID"/>
+        <viewAttribute id="CHILDID"/>
+        <viewAttribute id="IOBJNM"/>
+        <viewAttribute id="TLEVEL"/>
+      </viewAttributes>
+      <calculatedViewAttributes>
+        <calculatedViewAttribute datatype="NVARCHAR" id="CC_LEAF" length="1" expressionLanguage="COLUMN_ENGINE">
+          <formula>if(&quot;CHILDID&quot; = '00000000' and &quot;IOBJNM&quot;= 'ZPRODH2' , 1, 0)</formula>
+        </calculatedViewAttribute>
+      </calculatedViewAttributes>
+      <input node="#PR_Parent$$$$/BIC/HZPRODH2$$">
+        <mapping xsi:type="Calculation:AttributeMapping" target="HIEID" source="HIEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODEID" source="NODEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODENAME" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENTID" source="PARENTID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILDID" source="CHILDID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="IOBJNM" source="IOBJNM"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TLEVEL" source="TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_Child_0">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_PARENTID"/>
+        <viewAttribute id="HIEID"/>
+        <viewAttribute id="CC_LEAF">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="0"/>
+        </viewAttribute>
+        <viewAttribute id="TLEVEL"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_Child">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="NODEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_PARENTID" source="PARENTID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="HIEID" source="HIEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CC_LEAF" source="CC_LEAF"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TLEVEL" source="TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_Text">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="HIEID"/>
+        <viewAttribute id="LANGU">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="$$IP_LANGU$$"/>
+        </viewAttribute>
+        <viewAttribute id="OBJVERS">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="A"/>
+        </viewAttribute>
+        <viewAttribute id="NODENAME"/>
+        <viewAttribute id="TXTSH"/>
+        <viewAttribute id="TXTMD"/>
+        <viewAttribute id="TXTLG"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#RSTHIERNODE">
+        <mapping xsi:type="Calculation:AttributeMapping" target="HIEID" source="HIEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LANGU" source="LANGU"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="OBJVERS" source="OBJVERS"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODENAME" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TXTSH" source="TXTSH"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TXTMD" source="TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TXTLG" source="TXTLG"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_Ch_Txt" cardinality="C1_1" joinOrder="OUTSIDE_IN" joinType="textTable" languageColumn="LANGU">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTSH"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_TXTLG"/>
+        <viewAttribute id="CHILD_PARENTID"/>
+        <viewAttribute id="TLEVEL"/>
+        <viewAttribute hidden="true" id="JOIN$HIEID$HIEID"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_Child_0">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_PARENTID" source="CHILD_PARENTID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TLEVEL" source="TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$HIEID$HIEID" source="HIEID"/>
+      </input>
+      <input node="#PR_Text">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTSH" source="TXTSH"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTLG" source="TXTLG"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$HIEID$HIEID" source="HIEID"/>
+      </input>
+      <joinAttribute name="CHILD_NODE"/>
+      <joinAttribute name="JOIN$HIEID$HIEID"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_Child_1">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="HIEID"/>
+        <viewAttribute id="NODENAME"/>
+        <viewAttribute id="NODEID"/>
+        <viewAttribute id="PARENTID"/>
+        <viewAttribute id="CC_LEAF">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="1"/>
+        </viewAttribute>
+        <viewAttribute id="TLEVEL"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_Child">
+        <mapping xsi:type="Calculation:AttributeMapping" target="HIEID" source="HIEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODENAME" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODEID" source="NODEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENTID" source="PARENTID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CC_LEAF" source="CC_LEAF"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TLEVEL" source="TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_PROD_T">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="_BIC_ZPRODH2"/>
+        <viewAttribute id="LANGU">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="E"/>
+        </viewAttribute>
+        <viewAttribute id="TXTMD"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#/BIC/TZPRODH2">
+        <mapping xsi:type="Calculation:AttributeMapping" target="_BIC_ZPRODH2" source="/BIC/ZPRODH2"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LANGU" source="LANGU"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TXTMD" source="TXTMD"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_Ch_P_Txt" cardinality="C1_1" joinOrder="OUTSIDE_IN" joinType="textTable" languageColumn="LANGU">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_PARENTID"/>
+        <viewAttribute id="TLEVEL"/>
+        <viewAttribute id="CC_LEAF"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_Child_1">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="NODEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_PARENTID" source="PARENTID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TLEVEL" source="TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CC_LEAF" source="CC_LEAF"/>
+      </input>
+      <input node="#PR_PROD_T">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="_BIC_ZPRODH2"/>
+      </input>
+      <joinAttribute name="CHILD_NODE"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:UnionView" id="UN_Child">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_PARENTID"/>
+        <viewAttribute id="CHILD_TLEVEL"/>
+        <viewAttribute id="CC_LEAF" transparentFilter="false"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input emptyUnionBehavior="NO_ROW" node="#JN_Ch_Txt">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_PARENTID" source="CHILD_PARENTID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="TLEVEL"/>
+        <mapping xsi:type="Calculation:ConstantAttributeMapping" target="CC_LEAF" null="true" value=""/>
+      </input>
+      <input emptyUnionBehavior="NO_ROW" node="#JN_Ch_P_Txt">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_PARENTID" source="CHILD_PARENTID"/>
+        <mapping xsi:type="Calculation:ConstantAttributeMapping" target="CHILD_TLEVEL" null="true" value=""/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CC_LEAF" source="CC_LEAF"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_Parent_0">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="HIEID"/>
+        <viewAttribute id="CC_LEAF">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="0"/>
+        </viewAttribute>
+        <viewAttribute id="TLEVEL"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_Parent">
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="NODEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="HIEID" source="HIEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CC_LEAF" source="CC_LEAF"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TLEVEL" source="TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_Pa_Txt" cardinality="C1_1" joinOrder="OUTSIDE_IN" joinType="textTable" languageColumn="LANGU">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTSH"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TXTLG"/>
+        <viewAttribute id="PARENT_TLEVEL"/>
+        <viewAttribute hidden="true" id="JOIN$HIEID$HIEID"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_Parent_0">
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$HIEID$HIEID" source="HIEID"/>
+      </input>
+      <input node="#PR_Text">
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTSH" source="TXTSH"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTLG" source="TXTLG"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$HIEID$HIEID" source="HIEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="NODENAME"/>
+      </input>
+      <joinAttribute name="JOIN$HIEID$HIEID"/>
+      <joinAttribute name="PARENT_NODE"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_Parent_1">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="HIEID"/>
+        <viewAttribute id="NODEID"/>
+        <viewAttribute id="NODENAME"/>
+        <viewAttribute id="PARENTID"/>
+        <viewAttribute id="CC_LEAF">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="1"/>
+        </viewAttribute>
+        <viewAttribute id="TLEVEL"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_Parent">
+        <mapping xsi:type="Calculation:AttributeMapping" target="HIEID" source="HIEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODEID" source="NODEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="NODENAME" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENTID" source="PARENTID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CC_LEAF" source="CC_LEAF"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="TLEVEL" source="TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_Pa_P_Txt" cardinality="C1_1" joinOrder="OUTSIDE_IN" joinType="textTable" languageColumn="LANGU">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_Parent_1">
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="NODEID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="NODENAME"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="TLEVEL"/>
+      </input>
+      <input node="#PR_PROD_T">
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="_BIC_ZPRODH2"/>
+      </input>
+      <joinAttribute name="PARENT_NODE"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:UnionView" id="Union_Parent">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input emptyUnionBehavior="NO_ROW" node="#JN_Pa_Txt">
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+      </input>
+      <input emptyUnionBehavior="NO_ROW" node="#JN_Pa_P_Txt">
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_Hier" joinOrder="OUTSIDE_IN" joinType="leftOuter">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_TLEVEL"/>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false"/>
+        <viewAttribute id="CC_LEAF" transparentFilter="false"/>
+        <viewAttribute hidden="true" id="JOIN$CHILD_PARENTID$PARENT_ID"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#UN_Child">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CC_LEAF" source="CC_LEAF"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$CHILD_PARENTID$PARENT_ID" source="CHILD_PARENTID"/>
+      </input>
+      <input node="#Union_Parent">
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$CHILD_PARENTID$PARENT_ID" source="PARENT_ID"/>
+      </input>
+      <joinAttribute name="JOIN$CHILD_PARENTID$PARENT_ID"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_N1">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="CHILD_TLEVEL">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="01"/>
+        </viewAttribute>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_Hier">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_N2" filterExpressionLanguage="COLUMN_ENGINE">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_TLEVEL"/>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_Hier">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+      </input>
+      <filter>(&quot;CHILD_NODE&quot; !='ACCESSORIES') AND (&quot;CHILD_NODE&quot; !='SERVICES') AND(&quot;CHILD_TLEVEL&quot; ='02')</filter>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_N3">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_TLEVEL">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="03"/>
+        </viewAttribute>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_Hier">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_ACCES">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="ACCESSORIES"/>
+        </viewAttribute>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_TLEVEL"/>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL"/>
+        <viewAttribute id="PARENT_NODE_1"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_Hier">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE_1" source="PARENT_NODE"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_L1_L2" joinOrder="OUTSIDE_IN" joinType="leftOuter">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="LVL1_NODE"/>
+        <viewAttribute id="LVL1_TXTMD"/>
+        <viewAttribute id="LVL2_NODE"/>
+        <viewAttribute id="LVL2_TXTMD"/>
+        <viewAttribute id="PARENT_NODE"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_N1">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="CHILD_TXTMD"/>
+      </input>
+      <input node="#PR_N2">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="PARENT_NODE"/>
+      </input>
+      <joinAttribute name="LVL1_NODE"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_L123" joinOrder="OUTSIDE_IN" joinType="leftOuter">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="LVL1_NODE"/>
+        <viewAttribute id="LVL1_TXTMD"/>
+        <viewAttribute id="LVL2_NODE"/>
+        <viewAttribute id="LVL2_TXTMD"/>
+        <viewAttribute id="LVL3_NODE"/>
+        <viewAttribute id="LVL3_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_L1_L2">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="LVL1_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="LVL1_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="LVL2_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="LVL2_TXTMD"/>
+      </input>
+      <input node="#PR_N3">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="PARENT_NODE"/>
+      </input>
+      <joinAttribute name="LVL2_NODE"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_L1_ACC" joinOrder="OUTSIDE_IN" joinType="leftOuter">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="LVL1_NODE"/>
+        <viewAttribute id="LVL1_TXTMD"/>
+        <viewAttribute id="LVL2_NODE"/>
+        <viewAttribute id="LVL2_TXTMD"/>
+        <viewAttribute id="LVL3_NODE"/>
+        <viewAttribute id="LVL3_TXTMD"/>
+        <viewAttribute id="LVL4_NODE"/>
+        <viewAttribute id="LVL4_TXTMD"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_N1">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="CHILD_TXTMD"/>
+      </input>
+      <input node="#PR_ACCES">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="PARENT_NODE_1"/>
+      </input>
+      <joinAttribute name="LVL1_NODE"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_N4">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_TLEVEL">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="04"/>
+        </viewAttribute>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_Hier">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_L1234" joinOrder="OUTSIDE_IN" joinType="inner">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="LVL1_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL1_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL2_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL2_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL3_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL3_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL4_NODE"/>
+        <viewAttribute id="LVL4_TXTMD"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_L123">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="LVL1_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="LVL1_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="LVL2_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="LVL2_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="LVL3_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="LVL3_TXTMD"/>
+      </input>
+      <input node="#PR_N4">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="PARENT_NODE"/>
+      </input>
+      <joinAttribute name="LVL3_NODE"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_L123">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="LVL1_NODE"/>
+        <viewAttribute id="LVL1_TXTMD"/>
+        <viewAttribute id="LVL2_NODE"/>
+        <viewAttribute id="LVL2_TXTMD"/>
+        <viewAttribute id="LVL3_NODE"/>
+        <viewAttribute id="LVL3_TXTMD"/>
+        <viewAttribute id="LVL4_NODE"/>
+        <viewAttribute id="LVL4_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="false" value="04"/>
+        </viewAttribute>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_L123">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="LVL1_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="LVL1_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="LVL2_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="LVL2_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="LVL3_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="LVL3_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="LVL3_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="LVL3_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_SERV" filterExpressionLanguage="COLUMN_ENGINE">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_TLEVEL"/>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL"/>
+        <viewAttribute id="PARENT_NODE_1"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_Hier">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE_1" source="PARENT_NODE"/>
+      </input>
+      <filter>(&quot;CHILD_NODE&quot; ='SERVICES')</filter>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_L1_SERV" joinOrder="OUTSIDE_IN" joinType="leftOuter">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="LVL1_NODE"/>
+        <viewAttribute id="LVL1_TXTMD"/>
+        <viewAttribute id="LVL2_NODE"/>
+        <viewAttribute id="LVL2_TXTMD"/>
+        <viewAttribute id="LVL4_NODE"/>
+        <viewAttribute id="LVL4_TXTMD"/>
+        <viewAttribute id="LVL3_NODE"/>
+        <viewAttribute id="LVL3_TXTMD"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#PR_N1">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="CHILD_TXTMD"/>
+      </input>
+      <input node="#PR_SERV">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="PARENT_NODE_1"/>
+      </input>
+      <joinAttribute name="LVL1_NODE"/>
+    </calculationView>
+    <calculationView xsi:type="Calculation:UnionView" id="UN_ALL">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="LVL1_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL1_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL2_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL2_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL3_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL3_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL4_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL4_TXTMD" transparentFilter="false"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input emptyUnionBehavior="NO_ROW" node="#JN_L1_ACC">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="LVL1_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="LVL1_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="LVL2_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="LVL2_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="LVL3_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="LVL3_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="LVL4_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="LVL4_TXTMD"/>
+      </input>
+      <input emptyUnionBehavior="NO_ROW" node="#JN_L1234">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="LVL1_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="LVL1_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="LVL2_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="LVL2_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="LVL3_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="LVL3_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="LVL4_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="LVL4_TXTMD"/>
+      </input>
+      <input emptyUnionBehavior="NO_ROW" node="#PR_L123">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="LVL1_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="LVL1_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="LVL2_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="LVL2_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="LVL3_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="LVL3_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="LVL4_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="LVL4_TXTMD"/>
+      </input>
+      <input emptyUnionBehavior="NO_ROW" node="#JN_L1_SERV">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="LVL1_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="LVL1_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="LVL2_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="LVL2_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="LVL3_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="LVL3_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="LVL4_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="LVL4_TXTMD"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:ProjectionView" id="PR_LEAF">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="CHILD_ID"/>
+        <viewAttribute id="CHILD_NODE"/>
+        <viewAttribute id="CHILD_TXTMD"/>
+        <viewAttribute id="CHILD_TLEVEL"/>
+        <viewAttribute id="PARENT_ID"/>
+        <viewAttribute id="PARENT_NODE"/>
+        <viewAttribute id="PARENT_TXTMD"/>
+        <viewAttribute id="PARENT_TLEVEL" transparentFilter="false"/>
+        <viewAttribute id="CC_LEAF" transparentFilter="false">
+          <filter xsi:type="AccessControl:SingleValueFilter" including="true" value="1"/>
+        </viewAttribute>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#JN_Hier">
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_ID" source="CHILD_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CHILD_TLEVEL" source="CHILD_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_ID" source="PARENT_ID"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_NODE" source="PARENT_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TXTMD" source="PARENT_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="PARENT_TLEVEL" source="PARENT_TLEVEL"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="CC_LEAF" source="CC_LEAF"/>
+      </input>
+    </calculationView>
+    <calculationView xsi:type="Calculation:JoinView" id="JN_ALL_LEAF" joinOrder="OUTSIDE_IN" joinType="leftOuter">
+      <descriptions/>
+      <viewAttributes>
+        <viewAttribute id="LVL1_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL1_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL2_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL2_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL3_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL3_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="LVL4_NODE" transparentFilter="false"/>
+        <viewAttribute id="LVL4_TXTMD" transparentFilter="false"/>
+        <viewAttribute id="ZPRODH2_NODE"/>
+        <viewAttribute id="ZPRODH2_TXTMD"/>
+      </viewAttributes>
+      <calculatedViewAttributes/>
+      <input node="#UN_ALL">
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_NODE" source="LVL1_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL1_TXTMD" source="LVL1_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_NODE" source="LVL2_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL2_TXTMD" source="LVL2_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_NODE" source="LVL3_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL3_TXTMD" source="LVL3_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="LVL4_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_TXTMD" source="LVL4_TXTMD"/>
+      </input>
+      <input node="#PR_LEAF">
+        <mapping xsi:type="Calculation:AttributeMapping" target="ZPRODH2_NODE" source="CHILD_NODE"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="ZPRODH2_TXTMD" source="CHILD_TXTMD"/>
+        <mapping xsi:type="Calculation:AttributeMapping" target="LVL4_NODE" source="PARENT_NODE"/>
+      </input>
+      <joinAttribute name="LVL4_NODE"/>
+    </calculationView>
+  </calculationViews>
+  <inlineHierarchy xsi:type="Dimension:LeveledHierarchy" id="OTR_UNIT_GROUPINGS_SPC_Hierarchy" aggregateAllNodes="true" emptyValueIsNull="true" rootNodeVisibility="ADD_ROOT_NODE" withRootNode="true" nodeStyle="NAME_ONLY_ENFORCED">
+    <descriptions defaultDescription="OTR UNIT GROUPINGS - SPC Hierarchy"/>
+    <unassignedMemberProperties mode="TRUE" name="_NA_" drillable="true" includeNulls="true" nullConvertValue="_#_">
+      <caption label="Not Assigned"/>
+      <nullCaption label="Null"/>
+    </unassignedMemberProperties>
+    <levels>
+      <level levelAttribute="#LVL1_TXTMD" levelType="MDLEVEL_TYPE_REGULAR" order="1" orderAttribute="#LVL1_TXTMD"/>
+      <level levelAttribute="#LVL2_TXTMD" levelType="MDLEVEL_TYPE_REGULAR" order="2" orderAttribute="#LVL2_TXTMD"/>
+      <level levelAttribute="#LVL3_TXTMD" levelType="MDLEVEL_TYPE_REGULAR" order="3" orderAttribute="#LVL3_TXTMD"/>
+      <level levelAttribute="#LVL4_TXTMD" levelType="MDLEVEL_TYPE_REGULAR" order="4" orderAttribute="#LVL4_TXTMD"/>
+      <level levelAttribute="#ZPRODH2_NODE" levelType="MDLEVEL_TYPE_REGULAR" order="5" orderAttribute="#ZPRODH2_NODE"/>
+      <level levelAttribute="#CC_SUMM_PROD_CODE" levelType="MDLEVEL_TYPE_REGULAR" order="6" orderAttribute="#CC_SUMM_PROD_CODE"/>
+    </levels>
+  </inlineHierarchy>
+  <logicalModel id="JN_ALL_LEAF">
+    <descriptions/>
+    <attributes>
+      <attribute id="LVL1_TXTMD" order="1" attributeHierarchyActive="false" displayAttribute="false" transparentFilter="false">
+        <descriptions defaultDescription="Level 1"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="LVL1_TXTMD"/>
+      </attribute>
+      <attribute id="LVL2_TXTMD" order="2" attributeHierarchyActive="false" displayAttribute="false" transparentFilter="false">
+        <descriptions defaultDescription="Level 2"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="LVL2_TXTMD"/>
+      </attribute>
+      <attribute id="LVL3_TXTMD" order="3" attributeHierarchyActive="false" displayAttribute="false" transparentFilter="false">
+        <descriptions defaultDescription="Level 3"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="LVL3_TXTMD"/>
+      </attribute>
+      <attribute id="LVL4_TXTMD" order="4" attributeHierarchyActive="false" displayAttribute="false" transparentFilter="false">
+        <descriptions defaultDescription="Level 4"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="LVL4_TXTMD"/>
+      </attribute>
+      <attribute id="ZPRODH2_NODE" order="5" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Summary Product Code"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="ZPRODH2_NODE"/>
+      </attribute>
+      <attribute id="ZPRODH2_TXTMD" order="7" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Summary Prod. Code Text"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="ZPRODH2_TXTMD"/>
+      </attribute>
+      <attribute id="LVL1_NODE" order="8" attributeHierarchyActive="false" displayAttribute="false" transparentFilter="false">
+        <descriptions defaultDescription="Level 1 Node"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="LVL1_NODE"/>
+      </attribute>
+      <attribute id="LVL2_NODE" order="9" attributeHierarchyActive="false" displayAttribute="false" transparentFilter="false">
+        <descriptions defaultDescription="Level 2 Node"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="LVL2_NODE"/>
+      </attribute>
+      <attribute id="LVL3_NODE" order="10" attributeHierarchyActive="false" displayAttribute="false" transparentFilter="false">
+        <descriptions defaultDescription="Level 3 Node"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="LVL3_NODE"/>
+      </attribute>
+      <attribute id="LVL4_NODE" order="11" attributeHierarchyActive="false" displayAttribute="false" transparentFilter="false">
+        <descriptions defaultDescription="Level 4 Node"/>
+        <keyMapping columnObjectName="JN_ALL_LEAF" columnName="LVL4_NODE"/>
+      </attribute>
+    </attributes>
+    <calculatedAttributes>
+      <calculatedAttribute id="CC_SUMM_PROD_CODE" hidden="false" order="6" semanticType="empty" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="Summary Product Code Description "/>
+        <keyCalculation datatype="NVARCHAR" expressionLanguage="SQL" length="60">
+          <formula>CONCAT(CONCAT(&quot;ZPRODH2_NODE&quot;,' - '),&quot;ZPRODH2_TXTMD&quot;)</formula>
+        </keyCalculation>
+      </calculatedAttribute>
+    </calculatedAttributes>
+    <privateDataFoundation>
+      <tableProxies/>
+      <joins/>
+      <layout>
+        <shapes/>
+      </layout>
+    </privateDataFoundation>
+    <baseMeasures/>
+    <calculatedMeasures/>
+    <restrictedMeasures/>
+    <localDimensions/>
+  </logicalModel>
+  <layout>
+    <shapes>
+      <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+        <upperLeftCorner x="666" y="87"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_Child" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="99" y="1165"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_Parent" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="638" y="1165"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_Child_0" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="22" y="1087"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_Text" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="330" y="1087"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_Ch_Txt" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="176" y="991"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_Child_1" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="176" y="1087"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_PROD_T" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="638" y="1087"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_Ch_P_Txt" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="330" y="991"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="UN_Child" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="330" y="875"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_Parent_0" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="484" y="1087"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_Pa_Txt" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="484" y="991"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_Parent_1" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="792" y="1087"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_Pa_P_Txt" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="638" y="991"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="Union_Parent" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="484" y="875"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_Hier" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="397" y="779"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_N1" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="551" y="701"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_N2" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="243" y="701"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_N3" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="222" y="605"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_ACCES" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="397" y="701"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_L1_L2" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="376" y="605"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_L123" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="337" y="509"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_L1_ACC" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="530" y="605"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_N4" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="134" y="509"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_L1234" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="299" y="413"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_L123" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="453" y="413"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_SERV" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="705" y="701"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_L1_SERV" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="684" y="605"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="UN_ALL" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="540" y="261"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+      <shape expanded="true" modelObjectName="PR_LEAF" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="792" y="261"/>
+        <rectangleSize height="-1" width="-1"/>
+      </shape>
+      <shape expanded="true" modelObjectName="JN_ALL_LEAF" modelObjectNameSpace="CalculationView">
+        <upperLeftCorner x="666" y="165"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+    </shapes>
+  </layout>
+</Calculation:scenario>

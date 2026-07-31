@@ -1,0 +1,263 @@
+{
+  "sum": [
+    {
+      "name": "total",
+      "number": 20
+    },
+    {
+      "name": "db",
+      "number": 20,
+      "detail": {
+        ".calculationview": 19,
+        ".analyticview": 1
+      }
+    }
+  ],
+  "errors": {
+    "number": 2,
+    "list": [
+      {
+        "type": "ERROR",
+        "message": [
+          "Reference to non-coverable {0} object found.",
+          "_SYS_BIC.WHR.BASE::AT_HB_CUST_SALES"
+        ],
+        "description": "The referred object cannot be covered by a synonym. This is most likely because it is deprecated in XS Advanced or has no longer the same meaning.",
+        "category": "HDI",
+        "id": "HDI_24",
+        "file": "./WHRMIG/BASE/DIM_HB_CUST_SALES.hdbcalculationview"
+      },
+      {
+        "type": "ERROR",
+        "message": [
+          "Reference to non-coverable {0} object found.",
+          "_SYS_BIC.WHR.BASE.attributeviews::AT_HB_MATERIAL"
+        ],
+        "description": "The referred object cannot be covered by a synonym. This is most likely because it is deprecated in XS Advanced or has no longer the same meaning.",
+        "category": "HDI",
+        "id": "HDI_24",
+        "file": "./WHRMIG/BASE/DIM_HB_MATERIAL.hdbcalculationview"
+      }
+    ]
+  },
+  "warnings": {
+    "number": 2,
+    "list": [
+      {
+        "type": "WARNING",
+        "message": [
+          "Application does not have any role or privileges defined. Therefore we could not generate xs-security.json and default_access_role.hdbrole for you."
+        ],
+        "category": "SECURITY",
+        "id": "SECURITY_1",
+        "file": ""
+      },
+      {
+        "type": "WARNING",
+        "message": [
+          "The calculation view has data category {0} which is deprecated. Please consider using 'DIMENSION' or 'CUBE' instead.",
+          "DEFAULT"
+        ],
+        "description": "For more information on alternative solutions, see the SAP HANA Modeler Guide.",
+        "category": "VIEW_MIGRATION",
+        "id": "VIEW_MIGRATION_8",
+        "file": "migration/orig-src/WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.calculationview"
+      }
+    ]
+  },
+  "infos": {
+    "number": 0,
+    "list": []
+  },
+  "hdbIndexConversionMsgs": [],
+  "srvCheck": false,
+  "steps": [
+    {
+      "priority": 3,
+      "name": "Preparation Phase",
+      "desc": "Before commencing with the migration of your application you must manually migrate the listed artifacts in SAP HANA Studio. This applies to scripted calculation views, attribute views, analytic views, analytic privileges, AFL models (.aflpmml), and decision tables (.hdbruldec) files. Re-run the migration assistant once the manual migration has been completed.",
+      "link": {
+        "info": "description",
+        "url": "undefined#manual-migration-required"
+      },
+      "messages": {
+        "WARNING": [
+          {
+            "type": "WARNING",
+            "message": [
+              "The calculation view has data category {0} which is deprecated. Please consider using 'DIMENSION' or 'CUBE' instead.",
+              "DEFAULT"
+            ],
+            "description": "For more information on alternative solutions, see the SAP HANA Modeler Guide.",
+            "category": "VIEW_MIGRATION",
+            "id": "VIEW_MIGRATION_8",
+            "file": "migration/orig-src/WHRMIG/BASE/FIN/TRANS/AV_HB_ZCOPALIC.calculationview"
+          }
+        ]
+      },
+      "list": [
+        {
+          "text": "WARNING",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "priority": 4,
+      "always-shown": true,
+      "name": "Migration of Security Concept Required",
+      "desc": "The security concept has changed with XS Advanced and is incompatible with XS Classic. Manual migration steps are required in order to complete the migration of this application to XS Advanced. <br>For information about the XS Advanced security concept read the XS Advanced Migration Guide.",
+      "link": {
+        "info": "description",
+        "url": "undefined#security"
+      },
+      "messages": {
+        "WARNING": [
+          {
+            "type": "WARNING",
+            "message": [
+              "Application does not have any role or privileges defined. Therefore we could not generate xs-security.json and default_access_role.hdbrole for you."
+            ],
+            "category": "SECURITY",
+            "id": "SECURITY_1",
+            "file": ""
+          }
+        ]
+      },
+      "list": [
+        {
+          "text": "WARNING",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "priority": 6,
+      "name": "Database Artifacts",
+      "desc": "Migration of database artifacts has raised the following messages.",
+      "link": {
+        "info": "description",
+        "url": "undefined#database-artifacts"
+      },
+      "messages": {
+        "ERROR": [
+          {
+            "type": "ERROR",
+            "message": [
+              "Reference to non-coverable {0} object found.",
+              "_SYS_BIC.WHR.BASE::AT_HB_CUST_SALES"
+            ],
+            "description": "The referred object cannot be covered by a synonym. This is most likely because it is deprecated in XS Advanced or has no longer the same meaning.",
+            "category": "HDI",
+            "id": "HDI_24",
+            "file": "./WHRMIG/BASE/DIM_HB_CUST_SALES.hdbcalculationview"
+          },
+          {
+            "type": "ERROR",
+            "message": [
+              "Reference to non-coverable {0} object found.",
+              "_SYS_BIC.WHR.BASE.attributeviews::AT_HB_MATERIAL"
+            ],
+            "description": "The referred object cannot be covered by a synonym. This is most likely because it is deprecated in XS Advanced or has no longer the same meaning.",
+            "category": "HDI",
+            "id": "HDI_24",
+            "file": "./WHRMIG/BASE/DIM_HB_MATERIAL.hdbcalculationview"
+          }
+        ]
+      },
+      "list": [
+        {
+          "text": "ERROR",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "task": {
+    "dus": [
+      {
+        "name": "WHRMIG",
+        "vendor": "whirlpool.com",
+        "version": "1.0.0"
+      }
+    ],
+    "packages": [
+      "WHRMIG",
+      "WHRMIG.BASE",
+      "WHRMIG.BASE.FIN",
+      "WHRMIG.BASE.FIN.TRANS",
+      "WHRMIG.BASE.ISC",
+      "WHRMIG.BASE.ISC.TRANS",
+      "WHRMIG.BASE.ISC.TRANS.CVTD",
+      "WHRMIG.BUS",
+      "WHRMIG.BUS.FIN",
+      "WHRMIG.BUS.FIN.COPA",
+      "WHRMIG.BUS.FIN.GPS",
+      "WHRMIG.BUS.FIN.ISC",
+      "WHRMIG.BUS.FIN.ZPROMANLY",
+      "WHRMIG.BUS.GPO",
+      "WHRMIG.BUS.GPO.SPEND",
+      "WHRMIG.BUS.GPO.SPEND.DIRECT",
+      "WHRMIG.BUS.ISC",
+      "WHRMIG.BUS.ISC.OSR",
+      "WHRMIG.BUS.ISC.OTR",
+      "WHRMIG.BUS.ISC.OTR.calculationviews"
+    ]
+  },
+  "project": {
+    "name": "WHRMIG",
+    "vendor": "whirlpool.com",
+    "version": "1.0.0",
+    "description": "Subset of Whirlpool calculation views."
+  },
+  "cmdline": "--generate-manifests \"true\" --target-dir \"/home/user/projects/WHRMIG_PROJ\" --xsc-compatibility-mode \"default\" --target-release \"2.0SP08\"",
+  "isoTime": "2026-07-30T14:10:23.164Z",
+  "mig-tool-version": "3.0.5",
+  "extension-version": "2.0.5",
+  "async_data": "No xsjs directory found! Skipping migration...",
+  "async_warnings": [
+    "SAP HANA XSJS applications are based on synchronous API. On the other hand, Node.js is an asynchronous runtime. Thus, for XSJS applications that run on Node.js there is a certain code incompatibility. The @sap/async-xsjs module fixes this incompatibility. The async-migrator is used to migrate the code from xsjs to async-xsjs.",
+    "Please be aware of the following potential issues while utilizing the async-migrator for XSJS to async-xsjs code migrations:",
+    "1. Although the async-migrator is used to migrate a JavaScript project source code to async-await model by replacing sync function calls to async/await statements, the migrator might sometimes miss adding an async/await keyword to a function defination/call. Therefore, developers should thoroughly review and test the converted code for any potential issues.",
+    "2. In the async-migrator, the auto Escodegen option is used that automatically determines whether to use single or double quotes for string literals in the generated code. This might sometimes lead to error in the String manipulation functions. ",
+    "3. Node 20 has been implemented. Consequently, it is critical to update all dependent node modules to versions compatible with Node 20. Any modules not supported must be replaced or removed to ensure optimal functionality."
+  ],
+  "cap_logs": "CAP Migration is not required when migrating the application to XSA",
+  "capdata": [
+    " Creating proxy CDS for cross container schema",
+    " Following Artifacts are not currently supported '.hdbreptask'"
+  ],
+  "reportHdbtableFiles": [],
+  "reportCdsFiles": [],
+  "reportCalcCdsFiles": [],
+  "reportHdbfunctionFiles": [],
+  "runtimeVirtualTableDependentObjects": {},
+  "reportHdbcdsToCdsFiles": [],
+  "post_mig": [
+    "Migration of DB Artifacts from XS to CAP is complete. However, please verify these steps post migration: ",
+    "SQL syntax changes in procedure, ex: TRUNCATE statement has to be replaced with a DELETE FROM statement.",
+    "Reptask and Replication artifacts need to be adjusted to make them CAP compliant.",
+    "If Aliases are being used anywhere in the CDS files, please make sure that these are in uppercase.",
+    "A folder named 'unsupported_feature' has been created by the extension to contain file extensions that are not supported in SAP HANA Cloud. The files in this folder need to be handled manually.",
+    "Unsupported types and functions in calculation view ex: 'CE_FUNCTION', 'CACHE'  etc, please check the SAP HANA Cloud documentation",
+    "Verify the cross container artifacts before deployment.",
+    "Series entity is not supported in SAP HANA Cloud so they will be removed by the extension. Please check the Migration Documentation for more information.",
+    "CDS Access Policy entity definition is not supported in CAP CDS.",
+    "For hdbsynonym, hdbsynonymconfig and hdbrole files, please check target object parameters and role name before deployment.",
+    "The Memory threshold parameter is not supported in SAP HANA Cloud and will be removed by the extension.",
+    "Fulltext indexes are not supported in SAP HANA Cloud and have been removed.",
+    "For hdbflowgraph, ensure that the expression content within the node tag is verified before deployment.",
+    "For hdbvirtualtable, Please check the Sample Documentation for more information."
+  ],
+  "Ta": [],
+  "Tm": [],
+  "migration_path": "xsc-to-xsa",
+  "service_layer": "undefined",
+  "system": {
+    "host": "whirlpool",
+    "port": "30015",
+    "user": "MIGRATION_USER",
+    "sid": "HDB",
+    "hana_version": "2.00.063.00.1655123455"
+  }
+}

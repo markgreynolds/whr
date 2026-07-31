@@ -1,0 +1,77 @@
+{
+    "role": {
+        "name": "WHRMIG::PublicAccessObjects",
+        "object_privileges": [
+            {
+                "name": "WHRMIG.BASE::DIM_HB_CUST_SALES",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BASE::DIM_HB_MATERIAL",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BASE::DIM_HB_MAT_PLANT_CVTD",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BASE.FIN.TRANS::AV_HB_ZCOPALIC",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BASE.FIN.TRANS::CV_HB_ZGPSLOD3",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BASE.FIN.TRANS::CV_HB_ZGPSPPCH",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BASE.ISC.TRANS.CVTD::CV_HB_SOLD_TO",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BUS.FIN.COPA::CV_ZCOPALIC",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BUS.FIN.ISC::CV_ZPRODH2_HIER_LVL",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "WHRMIG.BUS.ISC.OTR.calculationviews::CV_ZPRODH2_HIER_LVL",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            }
+        ]
+    }
+}

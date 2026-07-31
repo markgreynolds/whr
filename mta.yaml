@@ -1,0 +1,25 @@
+_schema-version: 2.0
+ID: WHRMIG
+description: Subset of Whirlpool calculation views.
+version: 1.0.0
+
+modules:
+  - name: WHRMIG-db
+    type: hdb
+    path: db
+    requires:
+      - name: WHRMIG-hdi
+        properties:
+            TARGET_CONTAINER: ~{service-name}
+      - name: synonym-grantor-service
+
+
+resources:
+  - name: WHRMIG-hdi
+    type: com.sap.xs.hdi-container
+    properties:
+        service-name: ${service-name}
+  - name: synonym-grantor-service
+    type: org.cloudfoundry.existing-service
+    parameters:
+        service-name: synonym-grantor-service

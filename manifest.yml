@@ -1,0 +1,12 @@
+---
+  applications:
+  - name: WHRMIG-db
+    path: db
+    memory: 256M
+    no-route: true
+    services:
+      - WHRMIG-hdi
+      - synonym-grantor-service
+    env:
+      TARGET_CONTAINER: WHRMIG-hdi
+

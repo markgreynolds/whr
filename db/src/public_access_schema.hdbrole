@@ -1,0 +1,13 @@
+{
+    "role": {
+        "name": "WHRMIG::PublicAccessSchema",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT",
+                    "EXECUTE"
+                ]
+            }
+        ]
+    }
+}
